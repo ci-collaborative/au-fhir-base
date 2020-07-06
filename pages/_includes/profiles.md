@@ -4,6 +4,8 @@ These Profiles have been defined for this implementation guide.
 
 ## Administration Profiles
 * [AU Base Patient](StructureDefinition-au-patient.html) - patient demographic with local identifiers and attributes 
+* [AU Base Patient with Multiple Identifier Types](StructureDefinition-au-patient-ident-choice.html) - patient demographic with local identifiers and attributes 
+* [AU Base Patient with Multiple Identifier Slices](StructureDefinition-au-patient-ident-slice.html) - patient demographic with local identifiers and attributes 
 * [AU Base Practitioner](StructureDefinition-au-practitioner.html) - individual practitioner with local identifiers and attributes
 * [AU Base Practitioner Role](StructureDefinition-au-practitionerrole.html) - location based practitioner provider in a role
 * [AU Base Organisation](StructureDefinition-au-organization.html) - responsible legal organisation

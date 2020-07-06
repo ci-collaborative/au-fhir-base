@@ -586,6 +586,14 @@
         "StructureDefinition/dose-administration-aid-medicines-present": {
             "base": "structuredefinition-dose-administration-aid-medicines-present.html",
             "defns": "structuredefinition-dose-administration-aid-medicines-present-definitions.html"
+        },
+        "StructureDefinition/au-patient-ident-choice": {
+            "base": "structuredefinition-au-patient-ident-choice.html",
+            "defns": "structuredefinition-au-patient-ident-choice-definitions.html"
+        },
+        "StructureDefinition/au-patient-ident-slice": {
+            "base": "structuredefinition-au-patient-ident-slice.html",
+            "defns": "structuredefinition-au-patient-ident-slice-definitions.html"
         }
     }
 }
