@@ -5,6 +5,9 @@ These Profiles have been defined for this implementation guide.
 ## Administration Profiles
 * [AU Base Patient](StructureDefinition-au-patient.html) - patient demographic with local identifiers and attributes 
 * [AU Base Patient with Multiple Identifier Types](StructureDefinition-au-patient-ident-choice.html) - patient demographic with local identifiers and attributes 
+  * [Patient with Mandatory Identifier](StructureDefinition-au-patient-ident-choice-ident.html) 
+  * [Patient with 1..1 IHI](StructureDefinition-au-patient-ident-choice-ihi.html) 
+  * [Patient with IHI and Medicare Number](StructureDefinition-au-patient-ident-choice-ihi-med.html)
 * [AU Base Patient with Multiple Identifier Slices](StructureDefinition-au-patient-ident-slice.html) - patient demographic with local identifiers and attributes 
 * [AU Base Patient without Local Identifiers](StructureDefinition-au-patient-without-local-ident.html) - patient demographic with local attributes 
 * [AU Base Practitioner](StructureDefinition-au-practitioner.html) - individual practitioner with local identifiers and attributes
