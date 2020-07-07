@@ -619,11 +619,23 @@
         "StructureDefinition/au-patient-without-local-ident-ihi": {
             "base": "structuredefinition-au-patient-without-local-ident-ihi.html",
             "defns": "structuredefinition-au-patient-without-local-ident-ihi-definitions.html"
-        }
-        ,
+        },
         "StructureDefinition/au-patient-without-local-ident-ihi-med": {
             "base": "structuredefinition-au-patient-without-local-ident-ihi-med.html",
             "defns": "structuredefinition-au-patient-without-local-ident-ihi-med-definitions.html"
+        },
+        "StructureDefinition/au-patient-ident-slice-ident": {
+            "base": "structuredefinition-au-patient-ident-slice-ident.html",
+            "defns": "structuredefinition-au-patient-ident-slice-ident-definitions.html"
+        },
+        "StructureDefinition/au-patient-ident-slice-ihi": {
+            "base": "structuredefinition-au-patient-ident-slice-ihi.html",
+            "defns": "structuredefinition-au-patient-ident-slice-ihi-definitions.html"
+        }
+        ,
+        "StructureDefinition/au-patient-ident-slice-ihi-med": {
+            "base": "structuredefinition-au-patient-ident-slice-ihi-med.html",
+            "defns": "structuredefinition-au-patient-ident-slice-ihi-med-definitions.html"
         }
     }
 }

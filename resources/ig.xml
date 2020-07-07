@@ -1300,7 +1300,27 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-    
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-ident-slice-ident"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-ident-slice-ihi"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-ident-slice-ihi-med"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
     
     
     
