@@ -1279,7 +1279,30 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-   
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-without-local-ident-ident"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-without-local-ident-ihi"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-without-local-ident-ihi-med"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    
+    
+    
     
     <page>
       <nameUrl value="index.html"/>
