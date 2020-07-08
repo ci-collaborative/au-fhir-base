@@ -5,17 +5,17 @@ These Profiles have been defined for this implementation guide.
 ## Administration Profiles
 * [AU Base Patient](StructureDefinition-au-patient.html) - patient demographic with local identifiers and attributes 
 * [AU Base Patient with Multiple Identifier Types](StructureDefinition-au-patient-ident-choice.html) - patient demographic with local identifiers and attributes 
-  * [Patient with Mandatory Identifier](StructureDefinition-au-patient-ident-choice-ident.html) 
-  * [Patient with 1..1 IHI](StructureDefinition-au-patient-ident-choice-ihi.html) 
-  * [Patient with IHI and Medicare Number](StructureDefinition-au-patient-ident-choice-ihi-med.html)
-* [AU Base Patient with Multiple Identifier Slices](StructureDefinition-au-patient-ident-slice.html) - patient demographic with local identifiers and attributes 
-  * [Patient with Mandatory Identifier](StructureDefinition-au-patient-ident-slice-ident.html) 
-  * [Patient with 1..1 IHI](StructureDefinition-au-patient-ident-slice-ihi.html) 
-  * [Patient with IHI and Medicare Number](StructureDefinition-au-patient-ident-slice-ihi-med.html) 
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-choice-ident.html) 
+  * [Patient with 1..1 IHI](StructureDefinition-patient-ident-choice-ihi.html) 
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html)
+* [AU Base Patient with Identifier Slices](StructureDefinition-au-patient-ident-slice.html) - patient demographic with local identifiers and attributes 
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-slice-ident.html) 
+  * [Patient with 1..1 IHI](StructureDefinition-patient-ident-slice-ihi.html) 
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) 
 * [AU Base Patient without Local Identifiers](StructureDefinition-au-patient-without-local-ident.html) - patient demographic with local attributes 
-  * [Patient with Mandatory Identifier](StructureDefinition-au-patient-without-local-ident-ident.html)
-  * [Patient with 1..1 IHI](StructureDefinition-au-patient-without-local-ident-ihi.html)
-  * [Patient with IHI and Medicare Number](StructureDefinition-au-patient-without-local-ident-ihi-med.html)
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-without-local-ident-ident.html)
+  * [Patient with 1..1 IHI](StructureDefinition-patient-without-local-ident-ihi.html)
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-without-local-ident-ihi-med.html)
 * [AU Base Practitioner](StructureDefinition-au-practitioner.html) - individual practitioner with local identifiers and attributes
 * [AU Base Practitioner Role](StructureDefinition-au-practitionerrole.html) - location based practitioner provider in a role
 * [AU Base Organisation](StructureDefinition-au-organization.html) - responsible legal organisation

@@ -1260,63 +1260,63 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-ident-choice-ident"/>
+        <reference value="StructureDefinition/patient-ident-choice-ident"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-ident-choice-ihi"/>
+        <reference value="StructureDefinition/patient-ident-choice-ihi"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-ident-choice-ihi-med"/>
+        <reference value="StructureDefinition/patient-ident-choice-ihi-med"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-without-local-ident-ident"/>
+        <reference value="StructureDefinition/patient-without-local-ident-ident"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-without-local-ident-ihi"/>
+        <reference value="StructureDefinition/patient-without-local-ident-ihi"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-without-local-ident-ihi-med"/>
+        <reference value="StructureDefinition/patient-without-local-ident-ihi-med"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-ident-slice-ident"/>
+        <reference value="StructureDefinition/patient-ident-slice-ident"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-ident-slice-ihi"/>
+        <reference value="StructureDefinition/patient-ident-slice-ihi"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-ident-slice-ihi-med"/>
+        <reference value="StructureDefinition/patient-ident-slice-ihi-med"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>

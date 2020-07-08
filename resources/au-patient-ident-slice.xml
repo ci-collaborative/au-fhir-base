@@ -102,12 +102,8 @@
       <path value="Patient.identifier" />
       <slicing>
         <discriminator>
-          <type value="pattern" />
-          <path value="type" />
-        </discriminator>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
+          <type value="profile" />
+          <path value="$this.resolve()" />
         </discriminator>
         <rules value="open" />
       </slicing>
