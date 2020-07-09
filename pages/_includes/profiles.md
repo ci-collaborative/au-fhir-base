@@ -4,18 +4,6 @@ These Profiles have been defined for this implementation guide.
 
 ## Administration Profiles
 * [AU Base Patient](StructureDefinition-au-patient.html) - patient demographic with local identifiers and attributes 
-* [AU Base Patient with Multiple Identifier Types](StructureDefinition-au-patient-ident-choice.html) - patient demographic with local identifiers and attributes 
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-choice-ident.html) 
-  * [Patient with 1..1 IHI](StructureDefinition-patient-ident-choice-ihi.html) 
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html)
-* [AU Base Patient with Identifier Slices](StructureDefinition-au-patient-ident-slice.html) - patient demographic with local identifiers and attributes 
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-slice-ident.html) 
-  * [Patient with 1..1 IHI](StructureDefinition-patient-ident-slice-ihi.html) 
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) 
-* [AU Base Patient without Local Identifiers](StructureDefinition-au-patient-without-local-ident.html) - patient demographic with local attributes 
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-without-local-ident-ident.html)
-  * [Patient with 1..1 IHI](StructureDefinition-patient-without-local-ident-ihi.html)
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-without-local-ident-ihi-med.html)
 * [AU Base Practitioner](StructureDefinition-au-practitioner.html) - individual practitioner with local identifiers and attributes
 * [AU Base Practitioner Role](StructureDefinition-au-practitionerrole.html) - location based practitioner provider in a role
 * [AU Base Organisation](StructureDefinition-au-organization.html) - responsible legal organisation
@@ -60,4 +48,17 @@ These Profiles have been defined for this implementation guide.
 * [AU HPI-O Number](StructureDefinition-au-hpionumber.html) - identifier profile for an Australian Healthcare Provider Identifier – Organisation
 * [AU HPI-I Number](StructureDefinition-au-hpiinumber.html) - identifier profile for a Healthcare Provider Identifier - Individual - HPI-I
 
+### Prototype profiles to help define the mechanism for reference / inclusion of Identifier data type profiles ([au-fhir-base/issues/429](https://github.com/hl7au/au-fhir-base/issues/429))
 
+* [AU Base Patient with Multiple Identifier Types](StructureDefinition-au-patient-ident-choice.html) - patient demographic with local identifiers and attributes
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-choice-ident.html)
+  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-choice-ihi.html) 
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html)
+* [AU Base Patient with Identifier Slices](StructureDefinition-au-patient-ident-slice.html) - patient demographic with local identifiers and attributes 
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-slice-ident.html) 
+  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-slice-ihi.html) 
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) 
+* [AU Base Patient without Identifier Reference/Slice](StructureDefinition-au-patient-without-local-ident.html) - patient demographic with local attributes
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-without-local-ident-ident.html)
+  * [Patient with Mandatory IHI](StructureDefinition-patient-without-local-ident-ihi.html)
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-without-local-ident-ihi-med.html)

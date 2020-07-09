@@ -54,48 +54,48 @@
     <grouping id="p1">
       <name value="base"/>
     </grouping>
-    <!--<resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-condition"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-norelevantfinding"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-receivingapplication"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-receivingfacility"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-assigningauthority"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/encryption-certificate-pem-x509"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/indigenous-status"/>
@@ -103,41 +103,41 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-    <!--<resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/dispense-number"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/medication-long-term"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/medication-type"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/medication-brand-name"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/medication-generic-name"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/closing-the-gap-registration"/>
@@ -152,41 +152,41 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-    <!--<resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/grounds-for-concurrent-supply"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/minimum-interval-between-repeats"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/encounter-description"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/change-description"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/author-related-person"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/no-fixed-address"/>
@@ -257,20 +257,20 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-    <!--<resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-medication"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-encounter"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/au-address"/>
@@ -327,55 +327,55 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-    <!--<resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-composition"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-immunization"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-medicationstatement"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-medicationadministration"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-medicationdispense"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-medicationrequest"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-dosage"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/au-location"/>
@@ -390,21 +390,21 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-    <!--<resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-allergyintolerance"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-bodystructure"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
-    <!--<resource>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-diagnostic-observation"/>
       </reference>
@@ -424,7 +424,7 @@
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>-->
+    </resource>
     <resource>
       <reference>
         <reference value="ValueSet/grounds-for-concurrent-supply"/>
