@@ -47,6 +47,7 @@ These Profiles have been defined for this implementation guide.
 * [AU DVA Number](StructureDefinition-au-dvanumber.html) - identifier profile for an Australian Department of Veterans' Affairs (DVA) Number
 * [AU HPI-O Number](StructureDefinition-au-hpionumber.html) - identifier profile for an Australian Healthcare Provider Identifier – Organisation
 * [AU HPI-I Number](StructureDefinition-au-hpiinumber.html) - identifier profile for a Healthcare Provider Identifier - Individual - HPI-I
+* [AU ABN Number](StructureDefinition-au-abnnumber.html) - identifier profile for an Australian Business Number - ABN
 
 ### Prototype profiles to help define the mechanism for reference / inclusion of Identifier data type profiles ([au-fhir-base/issues/429](https://github.com/hl7au/au-fhir-base/issues/429))
 
