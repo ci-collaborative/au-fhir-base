@@ -49,17 +49,27 @@ These Profiles have been defined for this implementation guide.
 * [AU HPI-I Number](StructureDefinition-au-hpiinumber.html) - identifier profile for a Healthcare Provider Identifier - Individual - HPI-I
 * [AU ABN Number](StructureDefinition-au-abnnumber.html) - identifier profile for an Australian Business Number - ABN
 
-### Prototype profiles to help define the mechanism for reference / inclusion of Identifier data type profiles ([au-fhir-base/issues/429](https://github.com/hl7au/au-fhir-base/issues/429))
+## Prototype profiles to help define the mechanism for reference / inclusion of Identifier data type profiles 
+See ([au-fhir-base/issues/429](https://github.com/hl7au/au-fhir-base/issues/429))
 
-* [AU Base Patient with Multiple Identifier Types](StructureDefinition-au-patient-ident-choice.html) - patient demographic with local identifiers and attributes
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-choice-ident.html)
-  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-choice-ihi.html) 
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html)
-* [AU Base Patient with Identifier Slices](StructureDefinition-au-patient-ident-slice.html) - patient demographic with local identifiers and attributes 
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-slice-ident.html) 
-  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-slice-ihi.html) 
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) 
-* [AU Base Patient without Identifier Reference/Slice](StructureDefinition-au-patient-without-local-ident.html) - patient demographic with local attributes
+#### Guidance only
+Demonstrates inclusion of Identifier data type profiles by guidance only - no direct reference in an AU Base StructureDefinition. Demonstrates some basic derived profiles using this option with simple identifier constraints.
+* [AU Base Patient with Guidance only](StructureDefinition-au-patient-without-local-ident.html)
   * [Patient with Mandatory Identifier](StructureDefinition-patient-without-local-ident-ident.html)
   * [Patient with Mandatory IHI](StructureDefinition-patient-without-local-ident-ihi.html)
   * [Patient with IHI and Medicare Number](StructureDefinition-patient-without-local-ident-ihi-med.html)
+
+#### Allowed types
+Demonstrates inclusion of Identifier data type profiles by adding as a set of allowed types on the identifier element (in addition to the base Identifier type). Demonstrates some basic derived profiles using this option with simple identifier constraints.
+* [AU Base Patient with Allowed types](StructureDefinition-au-patient-ident-choice.html) 
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-choice-ident.html)
+  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-choice-ihi.html) 
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html)
+
+#### Slices
+Demonstrates inclusion of Identifier data type profiles by slicing on the identifier element and defining a slice for each identifier we decide is relevant to the base resource profile. Demonstrates some basic derived profiles using this option with simple identifier constraints.
+* [AU Base Patient with Slices](StructureDefinition-au-patient-ident-slice.html) 
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-slice-ident.html) 
+  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-slice-ihi.html) 
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) 
+
