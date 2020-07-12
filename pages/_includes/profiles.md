@@ -66,6 +66,7 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
   * [Patient with Mandatory IHI](StructureDefinition-patient-ident-choice-ihi.html) 
   * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html) - derived profile uses open slice to allow max one IHI and max one Medicare Number, and any other identifiers
   * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-ident-choice-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
+  * [Patient with IHI and Medicare Number Closed Type](StructureDefinition-patient-ident-choice-ihi-med-closedtype.html) - derived profile uses allowed types to only allow IHIs and Medicare Numbers
 
 #### Slices
 Demonstrates inclusion of Identifier data type profiles by slicing on the identifier element and defining a slice for each identifier we decide is relevant to the base resource profile. Demonstrates some basic derived profiles using this option with simple identifier constraints.

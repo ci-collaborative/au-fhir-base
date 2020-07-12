@@ -1316,6 +1316,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/patient-ident-choice-ihi-med-closedtype"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/patient-without-local-ident-ident"/>
       </reference>
       <exampleBoolean value="false"/>

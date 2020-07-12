@@ -615,6 +615,10 @@
             "base": "StructureDefinition-au-patient-ident-choice-ihi-med-closedslice.html",
             "defns": "StructureDefinition-au-patient-ident-choice-ihi-med-closedslice-definitions.html"
         },
+        "StructureDefinition/au-patient-ident-choice-ihi-med-closedtype": {
+            "base": "StructureDefinition-au-patient-ident-choice-ihi-med-closedtype.html",
+            "defns": "StructureDefinition-au-patient-ident-choice-ihi-med-closedtype-definitions.html"
+        },
         "StructureDefinition/patient-without-local-ident-ident": {
             "base": "StructureDefinition-patient-without-local-ident-ident.html",
             "defns": "StructureDefinition-patient-without-local-ident-ident-definitions.html"
