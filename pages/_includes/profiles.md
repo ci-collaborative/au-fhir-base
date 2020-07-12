@@ -57,14 +57,15 @@ Demonstrates inclusion of Identifier data type profiles by guidance only - no di
 * [AU Base Patient with Guidance only](StructureDefinition-au-patient-without-local-ident.html)
   * [Patient with Mandatory Identifier](StructureDefinition-patient-without-local-ident-ident.html)
   * [Patient with Mandatory IHI](StructureDefinition-patient-without-local-ident-ihi.html)
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-without-local-ident-ihi-med.html)
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-without-local-ident-ihi-med.html) - derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers
 
 #### Allowed types
 Demonstrates inclusion of Identifier data type profiles by adding as a set of allowed types on the identifier element (in addition to the base Identifier type). Demonstrates some basic derived profiles using this option with simple identifier constraints.
-* [AU Base Patient with Allowed types](StructureDefinition-au-patient-ident-choice.html) 
+* [AU Base Patient with Allowed types](StructureDefinition-au-patient-ident-choice.html)
   * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-choice-ident.html)
   * [Patient with Mandatory IHI](StructureDefinition-patient-ident-choice-ihi.html) 
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html)
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html) - derived profile uses open slice to allow max one IHI and max one Medicare Number, and any other identifiers
+  * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-ident-choice-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
 
 #### Slices
 Demonstrates inclusion of Identifier data type profiles by slicing on the identifier element and defining a slice for each identifier we decide is relevant to the base resource profile. Demonstrates some basic derived profiles using this option with simple identifier constraints.
