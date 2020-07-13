@@ -1344,6 +1344,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/patient-guidance-ihi-med-closedslice"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/patient-ident-slice-ident"/>
       </reference>
       <exampleBoolean value="false"/>

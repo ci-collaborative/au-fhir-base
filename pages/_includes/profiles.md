@@ -58,6 +58,7 @@ Demonstrates inclusion of Identifier data type profiles by guidance only - no di
   * [Patient with Mandatory Identifier](StructureDefinition-patient-guidance-ident.html)
   * [Patient with Mandatory IHI](StructureDefinition-patient-guidance-ihi.html)
   * [Patient with IHI and Medicare Number](StructureDefinition-patient-guidance-ihi-med.html) - derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers
+  * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-guidance-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
 
 #### Allowed types
 Demonstrates inclusion of Identifier data type profiles by adding as a set of allowed types on the identifier element (in addition to the base Identifier type). Demonstrates some basic derived profiles using this option with simple identifier constraints.
