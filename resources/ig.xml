@@ -1281,7 +1281,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-patient-without-local-ident"/>
+        <reference value="StructureDefinition/au-patient-guidance"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -1323,21 +1323,21 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/patient-without-local-ident-ident"/>
+        <reference value="StructureDefinition/patient-guidance-ident"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/patient-without-local-ident-ihi"/>
+        <reference value="StructureDefinition/patient-guidance-ihi"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/patient-without-local-ident-ihi-med"/>
+        <reference value="StructureDefinition/patient-guidance-ihi-med"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>

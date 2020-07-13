@@ -54,10 +54,10 @@ See ([au-fhir-base/issues/429](https://github.com/hl7au/au-fhir-base/issues/429)
 
 #### Guidance only
 Demonstrates inclusion of Identifier data type profiles by guidance only - no direct reference in an AU Base StructureDefinition. Demonstrates some basic derived profiles using this option with simple identifier constraints.
-* [AU Base Patient with Guidance only](StructureDefinition-au-patient-without-local-ident.html)
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-without-local-ident-ident.html)
-  * [Patient with Mandatory IHI](StructureDefinition-patient-without-local-ident-ihi.html)
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-without-local-ident-ihi-med.html) - derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers
+* [AU Base Patient with Guidance only](StructureDefinition-au-patient-guidance.html)
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-guidance-ident.html)
+  * [Patient with Mandatory IHI](StructureDefinition-patient-guidance-ihi.html)
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-guidance-ihi-med.html) - derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers
 
 #### Allowed types
 Demonstrates inclusion of Identifier data type profiles by adding as a set of allowed types on the identifier element (in addition to the base Identifier type). Demonstrates some basic derived profiles using this option with simple identifier constraints.

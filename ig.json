@@ -595,9 +595,9 @@
             "base": "StructureDefinition-au-patient-ident-slice.html",
             "defns": "StructureDefinition-au-patient-ident-slice-definitions.html"
         },
-        "StructureDefinition/au-patient-without-local-ident": {
-            "base": "StructureDefinition-au-patient-without-local-ident.html",
-            "defns": "StructureDefinition-au-patient-without-local-ident-definitions.html"
+        "StructureDefinition/au-patient-guidance": {
+            "base": "StructureDefinition-au-patient-guidance.html",
+            "defns": "StructureDefinition-au-patient-guidance-definitions.html"
         },
         "StructureDefinition/patient-ident-choice-ident": {
             "base": "StructureDefinition-patient-ident-choice-ident.html",
@@ -619,17 +619,17 @@
             "base": "StructureDefinition-au-patient-ident-choice-ihi-med-closedtype.html",
             "defns": "StructureDefinition-au-patient-ident-choice-ihi-med-closedtype-definitions.html"
         },
-        "StructureDefinition/patient-without-local-ident-ident": {
-            "base": "StructureDefinition-patient-without-local-ident-ident.html",
-            "defns": "StructureDefinition-patient-without-local-ident-ident-definitions.html"
+        "StructureDefinition/patient-guidance-ident": {
+            "base": "StructureDefinition-patient-guidance-ident.html",
+            "defns": "StructureDefinition-patient-guidance-ident-definitions.html"
         },
-        "StructureDefinition/patient-without-local-ident-ihi": {
-            "base": "StructureDefinition-patient-without-local-ident-ihi.html",
-            "defns": "StructureDefinition-patient-without-local-ident-ihi-definitions.html"
+        "StructureDefinition/patient-guidance-ihi": {
+            "base": "StructureDefinition-patient-guidance-ihi.html",
+            "defns": "StructureDefinition-patient-guidance-ihi-definitions.html"
         },
-        "StructureDefinition/patient-without-local-ident-ihi-med": {
-            "base": "StructureDefinition-patient-without-local-ident-ihi-med.html",
-            "defns": "StructureDefinition-patient-without-local-ident-ihi-med-definitions.html"
+        "StructureDefinition/patient-guidance-ihi-med": {
+            "base": "StructureDefinition-patient-guidance-ihi-med.html",
+            "defns": "StructureDefinition-patient-guidance-ihi-med-definitions.html"
         },
         "StructureDefinition/patient-ident-slice-ident": {
             "base": "StructureDefinition-patient-ident-slice-ident.html",
