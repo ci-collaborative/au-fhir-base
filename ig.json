@@ -635,6 +635,10 @@
             "base": "StructureDefinition-patient-guidance-ihi-med-closedslice.html",
             "defns": "StructureDefinition-patient-guidance-ihi-med-closedslice-definitions.html"
         },
+         "StructureDefinition/patient-guidance-ihi-med-closedtype": {
+            "base": "StructureDefinition-patient-guidance-ihi-med-closedtype.html",
+            "defns": "StructureDefinition-patient-guidance-ihi-med-closedtype-definitions.html"
+        },
         "StructureDefinition/patient-ident-slice-ident": {
             "base": "StructureDefinition-patient-ident-slice-ident.html",
             "defns": "StructureDefinition-patient-ident-slice-ident-definitions.html"
