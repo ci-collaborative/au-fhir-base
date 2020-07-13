@@ -1386,6 +1386,108 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-identifier-a"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-b"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-c"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-d"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-e"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-f"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-g"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-h"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-i"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-j"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-k"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-l"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-m"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-n"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-o"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-p"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-q"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-ihi-a"/>
       </reference>
       <name value="Patient with IHI"/>
