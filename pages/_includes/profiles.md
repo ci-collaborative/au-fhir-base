@@ -55,8 +55,8 @@ See ([au-fhir-base/issues/429](https://github.com/hl7au/au-fhir-base/issues/429)
 #### Guidance only
 Demonstrates inclusion of Identifier data type profiles by guidance only - no direct reference in an AU Base StructureDefinition. Demonstrates some basic derived profiles using this option with simple identifier constraints.
 * [AU Base Patient with Guidance only](StructureDefinition-au-patient-guidance.html)
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-guidance-ident.html)
-  * [Patient with Mandatory IHI](StructureDefinition-patient-guidance-ihi.html)
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-guidance-ident.html) - derived profile uses uses cardinality to enforce at least one identifier
+  * [Patient with Mandatory IHI](StructureDefinition-patient-guidance-ihi.html) - derived profile uses open slice to mandate one and only one IHI
   * [Patient with IHI and Medicare Number](StructureDefinition-patient-guidance-ihi-med.html) - derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers
   * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-guidance-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
   * [Patient with IHI and Medicare Number Closed Type](StructureDefinition-patient-guidance-ihi-med-closedtype.html) - derived profile uses allowed types to only allow IHIs and Medicare Numbers
@@ -64,8 +64,8 @@ Demonstrates inclusion of Identifier data type profiles by guidance only - no di
 #### Allowed types
 Demonstrates inclusion of Identifier data type profiles by adding as a set of allowed types on the identifier element (in addition to the base Identifier type). Demonstrates some basic derived profiles using this option with simple identifier constraints.
 * [AU Base Patient with Allowed types](StructureDefinition-au-patient-ident-choice.html)
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-choice-ident.html)
-  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-choice-ihi.html) 
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-choice-ident.html) - derived profile uses uses cardinality to enforce at least one identifier
+  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-choice-ihi.html) - derived profile uses open slice to mandate one and only one IHI
   * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html) - derived profile uses open slice to allow max one IHI and max one Medicare Number, and any other identifiers
   * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-ident-choice-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
   * [Patient with IHI and Medicare Number Closed Type](StructureDefinition-patient-ident-choice-ihi-med-closedtype.html) - derived profile uses allowed types to only allow IHIs and Medicare Numbers
@@ -73,8 +73,8 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
 #### Slices
 Demonstrates inclusion of Identifier data type profiles by slicing on the identifier element and defining a slice for each identifier we decide is relevant to the base resource profile. Demonstrates some basic derived profiles using this option with simple identifier constraints.
 * [AU Base Patient with Slices](StructureDefinition-au-patient-ident-slice.html) 
-  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-slice-ident.html) 
-  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-slice-ihi.html) 
-  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) 
+  * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-slice-ident.html)  - derived profile uses uses cardinality to enforce at least one identifier
+  * [Patient with Mandatory IHI](StructureDefinition-patient-ident-slice-ihi.html) - derived profile uses open slice to mandate one and only one IHI
+  * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) - derived profile uses open slice to allow max one IHI and max one Medicare Number, and any other identifiers
   * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-ident-slice-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
 
