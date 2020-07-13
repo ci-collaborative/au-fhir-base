@@ -100,10 +100,21 @@
     </element>
     <element id="Patient.identifier">
       <path value="Patient.identifier" />
-      <slicing>
+      <!--<slicing>
         <discriminator>
           <type value="profile" />
           <path value="$this.resolve()" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>-->
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="type" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
         </discriminator>
         <rules value="open" />
       </slicing>

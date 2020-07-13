@@ -1366,34 +1366,108 @@
 
     <resource>
       <reference>
-        <reference value="Patient/test-example-ihi"/>
+        <reference value="Patient/test-example-patient-ihi-guidance"/>
       </reference>
       <name value="Patient with IHI"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-ihi-medicare"/>
+        <reference value="Patient/test-example-patient-ihi-allowed-types"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-slices"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-guidance"/>
       </reference>
       <name value="Patient with IHI, Medicare Number"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-ihi-medicare-dva"/>
+        <reference value="Patient/test-example-patient-ihi-medicare-allowed-types"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-slices"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva"/>
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-ihi-medicare-dva-mr"/>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr"/>
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-identifier-value-only"/>
+        <reference value="Patient/test-example-patient-identifier-value-only-guidance"/>
       </reference>
       <name value="Patient with identifier with value only"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-slices"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-allowed-types"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-guidance"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-slices"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-allowed-types"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/example0-guidance"/>
+      </reference>
+      <name value="example0 conforming to patient with guidance only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/example0-allowed-types"/>
+      </reference>
+      <name value="example0 conforming to patient with allowed types "/>
+    </resource>  
+    <resource>
+      <reference>
+        <reference value="Patient/example0-slices"/>
+      </reference>
+      <name value="example0 conforming to patient with identifier slices profile"/>
+    </resource>
+    
     <page>
       <nameUrl value="index.html"/>
       <title value="Australian Base Profiles Implementation Guide"/>
