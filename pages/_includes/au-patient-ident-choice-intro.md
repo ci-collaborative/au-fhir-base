@@ -1,9 +1,11 @@
 **AU Base Patient Profile** *[[FMM Level 3](guidance.html)]*
 
+_Prototype demonstrates inclusion of Identifier data type profiles by adding as a set of allowed types on the identifier element (in addition to the base Identifier type). See [au-fhir-base/issues/429](https://github.com/hl7au/au-fhir-base/issues/429)._
+
 This profile defines a patient administration details structure that includes core localisation concepts for use in an Australian context.
 
 #### Identifiers
-These definitions represent common data held in the Patient.identifier element:
+These definitions (Identifier profiles) represent common data held in the Patient.identifier element:
 * [Individual Healthcare Identifier - IHI](StructureDefinition-au-ihinumber.html) [<sup>[1]</sup>](http://ns.electronichealth.net.au/id/hi/ihi/1.0/index.html){:target="_blank"} [<sup>[2]</sup>](http://meteor.aihw.gov.au/content/index.phtml/itemId/432495){:target="_blank"}
 * [Medicare Number](StructureDefinition-au-medicarecardnumber.html) [<sup>[1]</sup>](http://ns.electronichealth.net.au/id/medicare-number/index.html){:target="_blank"} [<sup>[2]</sup>](http://meteor.aihw.gov.au/content/index.phtml/itemId/270101){:target="_blank"}
 * [DVA (Department of Veterans' Affairs) Number](StructureDefinition-au-dvanumber.html) [<sup>[1]</sup>](http://ns.electronichealth.net.au/id/dva/index.html){:target="_blank"} [<sup>[2]</sup>](http://meteor.aihw.gov.au/content/index.phtml/itemId/339127){:target="_blank"}
@@ -30,21 +32,17 @@ Medicare Numbers are not used for uniquely identifying patients, they are identi
 
 To indicate an interpreter service is required, extension interpreter required=true should be set. If the language for interpreter service is known then it should be included in communication.language with communication.preferred=true. If communication.preferred=true is not set when interpreter required=true then it may be understood that an interpreter is required but the language for the interpreter service is not known.
 
-**Examples**
+**Test Examples**
 
-[Patient with IHI, Medicare Number, and Health Care Card](Patient-example0.html)
+[Patient with only identifier.value](Patient-test-example-patient-identifier-value-only-g.html) id=test-example-patient-identifier-value-only-g
 
-[Patient with IHI and DVA Number](Patient-example1.html)
+[Patient with identifier.value & system (uuid)](Patient-test-example-patient-identifier-g.html) id=test-example-patient-identifier-g
 
-[Patient with no birth date, and eligible for Closing the Gap registration](Patient-example2.html)
+[Patient with IHI](Patient-test-example-patient-ihi-g.html) id=test-example-patient-ihi-g
 
-[Patient with BirthTime](Patient-example3.html)
+[Patient with a valid IHI & a non-valid IHI & Medicare Number](Patient-test-example-patient-ihi-medicare-g.html) id=test-example-patient-ihi-medicare-g
 
-[Patient born in 2008](Patient-example4.html)
+[Patient with IHI & Medicare Number & DVA number](Patient-test-example-patient-ihi-medicare-dva-g.html) id=test-example-patient-ihi-medicare-dva-g
 
-[Patient Sarah Simmons linked to related person Sarah Simmons](Patient-example5.html)
-
-[Patient with interpreter required in particular language](Patient-example6.html)
-
-[Patient with interpreter required and language unknown](Patient-example7.html)
+[Patient with IHI & Medicare Number & DVA number & MRN](Patient-test-example-patient-ihi-medicare-dva-mr-g.html) id=test-example-patient-ihi-medicare-dva-mr-g
 
