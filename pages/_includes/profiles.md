@@ -76,4 +76,5 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
   * [Patient with Mandatory Identifier](StructureDefinition-patient-ident-slice-ident.html) 
   * [Patient with Mandatory IHI](StructureDefinition-patient-ident-slice-ihi.html) 
   * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) 
+  * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-ident-slice-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
 

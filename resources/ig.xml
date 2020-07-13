@@ -1377,7 +1377,13 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-slice-ihi-med-closedslice"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-guidance"/>

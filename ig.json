@@ -650,6 +650,10 @@
         "StructureDefinition/patient-ident-slice-ihi-med": {
             "base": "StructureDefinition-patient-ident-slice-ihi-med.html",
             "defns": "StructureDefinition-patient-ident-slice-ihi-med-definitions.html"
+        },
+        "StructureDefinition/patient-ident-slice-ihi-med-closedslice": {
+            "base": "StructureDefinition-patient-ident-slice-ihi-med-closedslice.html",
+            "defns": "StructureDefinition-patient-ident-slice-ihi-med-closedslice-definitions.html"
         }
     }
 }
