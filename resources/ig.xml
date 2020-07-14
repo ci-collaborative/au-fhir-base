@@ -295,7 +295,7 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/au-medicalrecordnumber"/>
-       </reference>
+      </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
@@ -305,7 +305,7 @@
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>  
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/au-dvanumber"/>
@@ -327,7 +327,7 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-	<resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-medlist"/>
       </reference>
@@ -687,7 +687,8 @@
         <reference value="Patient/example0"/>
       </reference>
       <name value="Patient with IHI and Medicare Card Number"/>
-      <description value="Shows a typical patient using identifier profiles for IHI, Medicare Card Number and the extension for Indigenous Status"/>
+      <description
+        value="Shows a typical patient using identifier profiles for IHI, Medicare Card Number and the extension for Indigenous Status"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -696,7 +697,8 @@
         <reference value="Patient/example1"/>
       </reference>
       <name value="Patient with IHI and DVA Number"/>
-      <description value="Shows a typical patient using identifier profiles for IHI, DVA Number (with specific card colour) and the extension for Indigenous Status"/>
+      <description
+        value="Shows a typical patient using identifier profiles for IHI, DVA Number (with specific card colour) and the extension for Indigenous Status"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -705,7 +707,8 @@
         <reference value="Patient/example2"/>
       </reference>
       <name value="Patient with no birth date, and is eligible for Closing the Gap registration"/>
-      <description value="Shows a patient with the extension for indigenous Status and the extension for Closing the Gap registration, with no birth date."/>
+      <description
+        value="Shows a patient with the extension for indigenous Status and the extension for Closing the Gap registration, with no birth date."/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -741,7 +744,8 @@
         <reference value="Patient/example6"/>
       </reference>
       <name value="Culturally and linguistically diverse (CALD) patient 1"/>
-      <description value="Shows a patient who requires an interpreter and their preferred communication language"/>
+      <description
+        value="Shows a patient who requires an interpreter and their preferred communication language"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -760,7 +764,8 @@
         <reference value="Practitioner/example0"/>
       </reference>
       <name value="Practitioner with HPI-I and Prescriber Number"/>
-      <description value="Shows a typical practitioner using identifier profiles for HPI-I and Prescriber Number"/>
+      <description
+        value="Shows a typical practitioner using identifier profiles for HPI-I and Prescriber Number"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -769,7 +774,8 @@
         <reference value="PractitionerRole/example0"/>
       </reference>
       <name value="Practitioner Role with Provider Number and ANZSCO coded role"/>
-      <description value="Shows a typical practitioner role using the identifer profile for Provider Number at a specfic location, with role using ANZSCO"/>
+      <description
+        value="Shows a typical practitioner role using the identifer profile for Provider Number at a specfic location, with role using ANZSCO"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -787,7 +793,8 @@
         <reference value="Organization/f799e349-0385-4fbc-a2aa-b5b50af957ea"/>
       </reference>
       <name value="Organisation (Pathology) with NATA Number, ARBN, ABN, ACN, HPI-O and PAI-O"/>
-      <description value="Shows a pathology organisation using the identifer profile for NATA Number, ARBN, ABN, ACN, HPI-O and PAI-O"/>
+      <description
+        value="Shows a pathology organisation using the identifer profile for NATA Number, ARBN, ABN, ACN, HPI-O and PAI-O"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -796,7 +803,8 @@
         <reference value="Organization/5-8631-1"/>
       </reference>
       <name value="Organisation (Pathology) with HPI-O and is a parent organization"/>
-      <description value="Shows a parent pathology organisation using the identifer profile for HPI-O"/>
+      <description
+        value="Shows a parent pathology organisation using the identifer profile for HPI-O"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -805,7 +813,8 @@
         <reference value="HealthcareService/example0"/>
       </reference>
       <name value="HealthcareService with HPI-O and eligibility"/>
-      <description value="Shows a typical healthcare service using the identifer profile for HPI-O, and eligibility information"/>
+      <description
+        value="Shows a typical healthcare service using the identifer profile for HPI-O, and eligibility information"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -822,7 +831,8 @@
         <reference value="Patient/DateAccuracyIndicatorAAAexample0"/>
       </reference>
       <name value="Patient Birth Date Accuracy Indicator with AAA"/>
-      <description value="Shows a typical Patient Date Accuracy Indicator extension Accurate Year, Accurate Month and Accurate Date"/>
+      <description
+        value="Shows a typical Patient Date Accuracy Indicator extension Accurate Year, Accurate Month and Accurate Date"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -831,7 +841,8 @@
         <reference value="Patient/DateAccuracyIndicatorAAUexample1"/>
       </reference>
       <name value="Patient Birth Date Accuracy Indicator with AAU"/>
-      <description value="Shows a typical Patient Date Accuracy Indicator extension Accurate Year, Accurate Month and Unknown Date"/>
+      <description
+        value="Shows a typical Patient Date Accuracy Indicator extension Accurate Year, Accurate Month and Unknown Date"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -840,7 +851,8 @@
         <reference value="Patient/DateAccuracyIndicatorUAAexample2"/>
       </reference>
       <name value="Patient Birth Date Accuracy Indicator with UAA"/>
-      <description value="Shows a typical Patient Date Accuracy Indicator extension Unknown Year, Accurate Month and Accurate Date"/>
+      <description
+        value="Shows a typical Patient Date Accuracy Indicator extension Unknown Year, Accurate Month and Accurate Date"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -849,7 +861,8 @@
         <reference value="Patient/DateAccuracyIndicatorUEAexample3"/>
       </reference>
       <name value="Patient Birth Date Accuracy Indicator with UEA"/>
-      <description value="Shows a typical Patient Date Accuracy Indicator extension Unknown Year, Estimated Month and Accurate Date"/>
+      <description
+        value="Shows a typical Patient Date Accuracy Indicator extension Unknown Year, Estimated Month and Accurate Date"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -858,7 +871,8 @@
         <reference value="Patient/DateAccuracyIndicatorUUUexample4"/>
       </reference>
       <name value="Patient Birth Date Accuracy Indicator with UUU"/>
-      <description value="Shows a typical Patient Date Accuracy Indicator extension Unknown Year, Unknown Month and Unknown Date"/>
+      <description
+        value="Shows a typical Patient Date Accuracy Indicator extension Unknown Year, Unknown Month and Unknown Date"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -1129,28 +1143,35 @@
         <reference value="Composition/multiple-information-recipients-and-author-role"/>
       </reference>
       <name value="composition-multiple-information-recipients-and-author-role"/>
-      <description value="Shows a typical example of a composition author role and multiple information recipients of different resource type"/>
+      <description
+        value="Shows a typical example of a composition author role and multiple information recipients of different resource type"
+      />
     </resource>
     <resource>
       <reference>
         <reference value="MedicationStatement/MedicationStatementexample0"/>
       </reference>
       <name value="Medication Statement"/>
-      <description value="Shows a typical informative example of a record of a patient's use of medication"/>
+      <description
+        value="Shows a typical informative example of a record of a patient's use of medication"/>
     </resource>
     <resource>
       <reference>
         <reference value="MedicationStatement/MedicationStatementexample1"/>
       </reference>
       <name value="Medication Statement"/>
-      <description value="Shows a typical informative example of a record of a patient's long-term use of medication"/>
+      <description
+        value="Shows a typical informative example of a record of a patient's long-term use of medication"
+      />
     </resource>
     <resource>
       <reference>
         <reference value="MedicationStatement/MedicationStatementexample2"/>
       </reference>
       <name value="Medication Statement"/>
-      <description value="Practitioner reports patient has taken Diflucan in the past but is not taking it any more"/>
+      <description
+        value="Practitioner reports patient has taken Diflucan in the past but is not taking it any more"
+      />
     </resource>
     <resource>
       <reference>
@@ -1234,7 +1255,7 @@
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>   
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/date-of-arrival"/>
@@ -1242,6 +1263,855 @@
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
+
+    <!--Profile to test identifier data types-->
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-ident-choice"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-ident-slice"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-patient-guidance"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-choice-ident"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-choice-ihi"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-choice-ihi-med"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-choice-ihi-med-closedslice"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-choice-ihi-med-closedtype"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-guidance-ident"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-guidance-ihi"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-guidance-ihi-med"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-guidance-ihi-med-closedslice"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-guidance-ihi-med-closedtype"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-slice-ident"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-slice-ihi"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-slice-ihi-med"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-slice-ihi-med-closedslice"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-a"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-b"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-c"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-d"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-e"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-f"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-g"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-h"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-i"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-j"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-k"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-l"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-m"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-n"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-o"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-p"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-q"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-a"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-b"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-c"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-d"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-e"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-f"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-g"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-h"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-i"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-j"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-k"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-l"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-m"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-n"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-o"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-p"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-q"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-a"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-b"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-c"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-d"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-e"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-f"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-g"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-h"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-i"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-j"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-k"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-l"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-m"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-n"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-o"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-p"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-q"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-a"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-b"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-c"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-d"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-e"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-f"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-g"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-h"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-i"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-j"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-k"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-l"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-m"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-n"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-o"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-p"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-q"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-a"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-b"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-c"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-d"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-e"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-f"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-h"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-i"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-j"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-k"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-l"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-m"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-n"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-o"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-p"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-q"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-a"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-b"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-c"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-d"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-e"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-f"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-g"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-h"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-i"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-j"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-k"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-l"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-m"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-n"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-o"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-p"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-q"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-a"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-b"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-c"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-d"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-e"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-f"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-g"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-h"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-i"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-j"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-k"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-l"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-m"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-n"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-o"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-p"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-q"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    
+    <resource>
+      <reference>
+        <reference value="Patient/example0-guidance"/>
+      </reference>
+      <name value="example0 conforming to patient with guidance only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/example0-allowed-types"/>
+      </reference>
+      <name value="example0 conforming to patient with allowed types "/>
+    </resource>  
+    <resource>
+      <reference>
+        <reference value="Patient/example0-slices"/>
+      </reference>
+      <name value="example0 conforming to patient with identifier slices profile"/>
+    </resource>
+    
     <page>
       <nameUrl value="index.html"/>
       <title value="Australian Base Profiles Implementation Guide"/>
