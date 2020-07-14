@@ -53,30 +53,30 @@ To indicate an interpreter service is required, extension interpreter required=t
       <tr>
         <td><a href="Patient-test-example-patient-identifier-value-only-a.html">Patient with only identifier.value</a></td>
         <td>test-example-patient-identifier-value-only-a</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-identifier-a.html">Patient with identifier.value and system (uuid)</a></td>
         <td>test-example-patient-identifier-a</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-a.html">Patient with IHI</a></td>
         <td>test-example-patient-ihi-a</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-a.html">Patient with a valid IHI and a non-valid IHI and Medicare Number</a></td>
         <td>test-example-patient-ihi-medicare-a</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-a.html">Patient with IHI and Medicare Number and DVA number</a></td>
@@ -88,16 +88,16 @@ To indicate an interpreter service is required, extension interpreter required=t
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-mr-a.html">Patient with IHI and Medicare Number and DVA number and MRN</a></td>
         <td>test-example-patient-ihi-medicare-dva-mr-a</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-local-identifiers-a.html">Patient with HPI-O scoped MRN and Local namespace MRN</a></td>
         <td>test-example-patient-local-identifiers-a</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
     </tbody>
 </table>

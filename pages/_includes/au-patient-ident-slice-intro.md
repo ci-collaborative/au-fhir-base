@@ -53,51 +53,49 @@ To indicate an interpreter service is required, extension interpreter required=t
       <tr>
         <td><a href="Patient-test-example-patient-identifier-value-only-m.html">Patient with only identifier.value</a></td>
         <td>test-example-patient-identifier-value-only-m</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Fail</td>
+        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-identifier-m.html">Patient with identifier.value and system (uuid)</a></td>
         <td>test-example-patient-identifier-m</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Fail</td>
+        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-m.html">Patient with IHI</a></td>
         <td>test-example-patient-ihi-m</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>      </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-m.html">Patient with a valid IHI and a non-valid IHI and Medicare Number</a></td>
         <td>test-example-patient-ihi-medicare-m</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>      </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-m.html">Patient with IHI and Medicare Number and DVA number</a></td>
         <td>test-example-patient-ihi-medicare-dva-m</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-mr-m.html">Patient with IHI and Medicare Number and DVA number and MRN</a></td>
         <td>test-example-patient-ihi-medicare-dva-mr-m</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-local-identifiers-m.html">Patient with HPI-O scoped MRN and Local namespace MRN</a></td>
         <td>test-example-patient-local-identifiers-m</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>
       </tr>
     </tbody>
 </table>
