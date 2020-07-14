@@ -69,6 +69,7 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
   * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-choice-ihi-med.html) - derived profile uses open slice to allow max one IHI and max one Medicare Number, and any other identifiers
   * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-ident-choice-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
   * [Patient with IHI and Medicare Number Closed Type](StructureDefinition-patient-ident-choice-ihi-med-closedtype.html) - derived profile uses allowed types to only allow IHIs and Medicare Numbers
+  * [Patient with Medicare Number and a Locally Defined Identifier Type](StructureDefinition-patient-ident-choice-ihi-testident.html) - derived profile uses open slice to allow max one Medicare Number and max one of a new identifier profile
 
 #### Slices
 Demonstrates inclusion of Identifier data type profiles by slicing on the identifier element and defining a slice for each identifier we decide is relevant to the base resource profile. Demonstrates some basic derived profiles using this option with simple identifier constraints.
@@ -78,3 +79,5 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
   * [Patient with IHI and Medicare Number](StructureDefinition-patient-ident-slice-ihi-med.html) - derived profile uses open slice to allow max one IHI and max one Medicare Number, and any other identifiers
   * [Patient with IHI and Medicare Number Closed Slice](StructureDefinition-patient-ident-slice-ihi-med-closedslice.html) - derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number
 
+#### Prototyper Profiles on Identifier Data Type
+* [Patient Test Identifier](StructureDefinition-identifier-patient-test-ident.html) - locally defined identifier profile (not predefined in HL7 AU)

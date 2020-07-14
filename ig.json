@@ -654,6 +654,10 @@
         "StructureDefinition/patient-ident-slice-ihi-med-closedslice": {
             "base": "StructureDefinition-patient-ident-slice-ihi-med-closedslice.html",
             "defns": "StructureDefinition-patient-ident-slice-ihi-med-closedslice-definitions.html"
+        },
+        "StructureDefinition/identifier-patient-test-ident": {
+            "base": "StructureDefinition-identifier-patient-test-ident.html",
+            "defns": "StructureDefinition-identifier-patient-test-ident-definitions.html"
         }
     }
 }
