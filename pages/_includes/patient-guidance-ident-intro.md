@@ -58,9 +58,9 @@ Prototype derived profile uses uses cardinality to enforce at least one identifi
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-mr-b.html">Patient with IHI and Medicare Number and DVA number and MRN</a></td>
         <td>test-example-patient-ihi-medicare-dva-mr-b</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-local-identifiers-b.html">Patient with HPI-O scoped MRN and Local namespace MRN</a></td>
