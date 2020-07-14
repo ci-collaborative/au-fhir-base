@@ -23,51 +23,51 @@ Prototype derived profile uses open slice to mandate one and only one IHI.
       <tr>
         <td><a href="Patient-test-example-patient-identifier-value-only-c.html">Patient with only identifier.value</a></td>
         <td>test-example-patient-identifier-value-only-c</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Fail</td>
+        <td>Fail</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-identifier-c.html">Patient with identifier.value and system (uuid)</a></td>
         <td>test-example-patient-identifier-c</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Fail</td>
+        <td>Fail</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-c.html">Patient with IHI</a></td>
         <td>test-example-patient-ihi-c</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-c.html">Patient with a valid IHI and a non-valid IHI and Medicare Number</a></td>
         <td>test-example-patient-ihi-medicare-c</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Fail</td>
+        <td>Fail</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-c.html">Patient with IHI and Medicare Number and DVA number</a></td>
         <td>test-example-patient-ihi-medicare-dva-c</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-mr-c.html">Patient with IHI and Medicare Number and DVA number and MRN</a></td>
         <td>test-example-patient-ihi-medicare-dva-mr-c</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-local-identifiers-c.html">Patient with HPI-O scoped MRN and Local namespace MRN</a></td>
         <td>test-example-patient-local-identifiers-c</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Fail</td>
+        <td>Fail</td>
+        <td>-</td>
       </tr>
     </tbody>
 </table>
