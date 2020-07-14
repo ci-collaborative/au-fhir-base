@@ -670,6 +670,10 @@
         "StructureDefinition/patient-ident-slice-med-testident": {
             "base": "StructureDefinition-patient-ident-slice-med-testident.html",
             "defns": "StructureDefinition-patient-ident-slice-med-testident-definitions.html"
-        } 
+        },
+        "StructureDefinition/patient-ident-slice-med-testident-closedslice": {
+            "base": "StructureDefinition-patient-ident-slice-med-testident-closedslice.html",
+            "defns": "StructureDefinition-patient-ident-slice-med-testident-closedslice-definitions.html"
+        }  
     }
 }
