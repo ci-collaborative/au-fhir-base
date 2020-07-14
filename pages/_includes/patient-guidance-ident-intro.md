@@ -2,18 +2,72 @@
 
 Prototype derived profile uses uses cardinality to enforce at least one identifier.
 
-**Test Examples**
+#### Test Examples
 
-[Patient with only identifier.value](Patient-test-example-patient-identifier-value-only-b.html) id=test-example-patient-identifier-value-only-b
-
-[Patient with identifier.value & system (uuid)](Patient-test-example-patient-identifier-b.html) id=test-example-patient-identifier-b
-
-[Patient with IHI](Patient-test-example-patient-ihi-b.html) id=test-example-patient-ihi-b
-
-[Patient with a valid IHI & a non-valid IHI & Medicare Number](Patient-test-example-patient-ihi-medicare-b.html) id=test-example-patient-ihi-medicare-b
-
-[Patient with IHI & Medicare Number & DVA number](Patient-test-example-patient-ihi-medicare-dva-b.html) id=test-example-patient-ihi-medicare-dva-b
-
-[Patient with IHI & Medicare Number & DVA number & MRN](Patient-test-example-patient-ihi-medicare-dva-mr-b.html) id=test-example-patient-ihi-medicare-dva-mr-b
-
-
+<table class="list" style="width:100%">
+    <colgroup>
+       <col span="1" style="width: 19%;"/>
+       <col span="1" style="width: 25%;"/>
+       <col span="1" style="width: 10%;"/>
+       <col span="1" style="width: 10%;"/>
+       <col span="1" style="width: 20%;"/>
+    </colgroup>
+	<tbody>
+      <tr>
+        <th>Test scenario</th>
+        <th>resource id</th>
+        <th>Expected</th>
+        <th>Actual</th>
+		<th>Notes</th>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-identifier-value-only-b.html">Patient with only identifier.value</a></td>
+        <td>test-example-patient-identifier-value-only-b</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-identifier-b.html">Patient with identifier.value and system (uuid)</a></td>
+        <td>test-example-patient-identifier-b</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-ihi-b.html">Patient with IHI</a></td>
+        <td>test-example-patient-ihi-b</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-ihi-medicare-b.html">Patient with a valid IHI and a non-valid IHI and Medicare Number</a></td>
+        <td>test-example-patient-ihi-medicare-b</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-ihi-medicare-dva-b.html">Patient with IHI and Medicare Number and DVA number</a></td>
+        <td>test-example-patient-ihi-medicare-dva-b</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-ihi-medicare-dva-mr-b.html">Patient with IHI and Medicare Number and DVA number and MRN</a></td>
+        <td>test-example-patient-ihi-medicare-dva-mr-b</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-local-identifiers-b.html">Patient with HPI-O scoped MRN and Local namespace MRN</a></td>
+        <td>test-example-patient-local-identifiers-b</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+    </tbody>
+</table>
