@@ -154,7 +154,7 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
         <th>Description</th>
       </tr>
       <tr>
-        <td rowspan="6"><a href="StructureDefinition-au-patient-ident-slice.html">AU Base Patient with Slices</a></td>
+        <td rowspan="7"><a href="StructureDefinition-au-patient-ident-slice.html">AU Base Patient with Slices</a></td>
         <td><a href="StructureDefinition-patient-ident-slice-ident.html">Patient with Mandatory Identifier</a></td>
         <td>Derived profile uses cardinality to enforce at least one identifier</td>
       </tr>
@@ -177,6 +177,10 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
       <tr>
         <td><a href="StructureDefinition-patient-ident-slice-med-testident.html">Patient with Medicare Number and Locally Defined Identifier</a></td>
         <td>Derived profile uses open slice to allow max one Medicare Number, and max one locally defined identifier</td>
+      </tr>
+      <tr>
+        <td><a href="StructureDefinition-patient-ident-slice-med-testident-closedslice.html">Patient with Medicare Number and Locally Defined Identifier Closed Slice</a></td>
+        <td>Derived profile uses closed slice to allow max one Medicare Number, and max one locally defined identifier</td>
       </tr>
     </tbody>
 </table>
