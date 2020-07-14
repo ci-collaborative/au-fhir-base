@@ -3,8 +3,8 @@
   <id value="au-patient-ident-slice" />
   <url value="http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice" />
   <version value="2.1.0" />
-  <name value="AUBasePatientIdentSlice" />
-  <title value="AU Base Patient with Multiple Identifier Slices" />
+  <name value="AUBasePatientIdentifierSlices" />
+  <title value="AU Base Patient with Identifier Slices" />
   <status value="active" />
   <date value="2019-03-06T10:07:00+11:00" />
   <publisher value="Health Level Seven Australia (Patient Administration WG)" />
@@ -15,7 +15,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This profile defines a patient administration details structure that includes core localisation concepts for use in an Australian context." />
+  <description value="This profile defines a patient administration details structure that includes core localisation concepts for use in an Australian context. Prototype demonstrates inclusion of Identifier data type profiles by slicing on the identifier element and defining a slice for each identifier we decide is relevant to the base resource profile." />
   <copyright value="HL7 Australia© 2018+; Licensed Under Creative Commons No Rights Reserved." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />

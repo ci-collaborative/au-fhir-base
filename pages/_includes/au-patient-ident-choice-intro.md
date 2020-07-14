@@ -32,17 +32,72 @@ Medicare Numbers are not used for uniquely identifying patients, they are identi
 
 To indicate an interpreter service is required, extension interpreter required=true should be set. If the language for interpreter service is known then it should be included in communication.language with communication.preferred=true. If communication.preferred=true is not set when interpreter required=true then it may be understood that an interpreter is required but the language for the interpreter service is not known.
 
-**Test Examples**
+#### Test Examples
 
-[Patient with only identifier.value](Patient-test-example-patient-identifier-value-only-g.html) id=test-example-patient-identifier-value-only-g
-
-[Patient with identifier.value & system (uuid)](Patient-test-example-patient-identifier-g.html) id=test-example-patient-identifier-g
-
-[Patient with IHI](Patient-test-example-patient-ihi-g.html) id=test-example-patient-ihi-g
-
-[Patient with a valid IHI & a non-valid IHI & Medicare Number](Patient-test-example-patient-ihi-medicare-g.html) id=test-example-patient-ihi-medicare-g
-
-[Patient with IHI & Medicare Number & DVA number](Patient-test-example-patient-ihi-medicare-dva-g.html) id=test-example-patient-ihi-medicare-dva-g
-
-[Patient with IHI & Medicare Number & DVA number & MRN](Patient-test-example-patient-ihi-medicare-dva-mr-g.html) id=test-example-patient-ihi-medicare-dva-mr-g
-
+<table class="list" style="width:100%">
+    <colgroup>
+       <col span="1" style="width: 19%;"/>
+       <col span="1" style="width: 25%;"/>
+       <col span="1" style="width: 10%;"/>
+       <col span="1" style="width: 10%;"/>
+       <col span="1" style="width: 20%;"/>
+    </colgroup>
+	<tbody>
+      <tr>
+        <th>Test scenario</th>
+        <th>resource id</th>
+        <th>Expected</th>
+        <th>Actual</th>
+		<th>Notes</th>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-identifier-value-only-g.html">Patient with only identifier.value</a></td>
+        <td>test-example-patient-identifier-value-only-g</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-identifier-g.html">Patient with identifier.value and system (uuid)</a></td>
+        <td>test-example-patient-identifier-g</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-ihi-g.html">Patient with IHI</a></td>
+        <td>test-example-patient-ihi-g</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-ihi-medicare-g.html">Patient with a valid IHI and a non-valid IHI and Medicare Number</a></td>
+        <td>test-example-patient-ihi-medicare-g</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-ihi-medicare-dva-g.html">Patient with IHI and Medicare Number and DVA number</a></td>
+        <td>test-example-patient-ihi-medicare-dva-g</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-ihi-medicare-dva-mr-g.html">Patient with IHI and Medicare Number and DVA number and MRN</a></td>
+        <td>test-example-patient-ihi-medicare-dva-mr-g</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-local-identifiers-g.html">Patient with HPI-O scoped MRN and Local namespace MRN</a></td>
+        <td>test-example-patient-local-identifiers-g</td>
+         <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+    </tbody>
+</table>

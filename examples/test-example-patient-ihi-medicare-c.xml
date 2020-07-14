@@ -3,7 +3,7 @@
     <id value="test-example-patient-ihi-medicare-c"/>
     <meta>
          <profile
-             value="http://hl7.org.au/fhir/StructureDefinition/patient-without-local-ident-ihi-med"/>
+             value="http://hl7.org.au/fhir/StructureDefinition/patient-guidance-ihi"/>
     </meta>
     <identifier>
         <extension url="http://hl7.org.au/fhir/StructureDefinition/ihi-status">
