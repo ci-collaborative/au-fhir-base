@@ -44,9 +44,9 @@ Prototype derived profile uses open slice to mandate one and only one IHI.
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-o.html">Patient with a valid IHI and a non-valid IHI and Medicare Number</a></td>
         <td>test-example-patient-ihi-medicare-o</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Fail</td>
+        <td>Fail</td>
+        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-ident path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-o.html">Patient with IHI and Medicare Number and DVA number</a></td>

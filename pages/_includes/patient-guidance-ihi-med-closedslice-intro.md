@@ -52,8 +52,8 @@ Prototype derived profile uses closed slice to allow only max two identifiers; a
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-e.html">Patient with IHI and Medicare Number and DVA number</a></td>
         <td>test-example-patient-ihi-medicare-dva-e</td>
         <td>Fail</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Fail</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-mr-e.html">Patient with IHI and Medicare Number and DVA number and MRN</a></td>

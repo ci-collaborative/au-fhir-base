@@ -81,9 +81,9 @@ To indicate an interpreter service is required, extension interpreter required=t
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-a.html">Patient with IHI and Medicare Number and DVA number</a></td>
         <td>test-example-patient-ihi-medicare-dva-a</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-mr-a.html">Patient with IHI and Medicare Number and DVA number and MRN</a></td>
