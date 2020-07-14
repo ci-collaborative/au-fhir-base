@@ -2113,7 +2113,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/patient-ident-choice-ihi-testident"/>
+        <reference value="StructureDefinition/patient-ident-choice-med-testident"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -2127,27 +2127,101 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-valid-testident-aa"/>
+        <reference value="StructureDefinition/patient-ident-choice-med-testident-closedslice"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-ident-slice-med-testident"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-aa"/>
       </reference>
       <name value="Patient with Medicare Number and a local test identifier"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-valid-testident-ab"/>
+        <reference value="Patient/test-example-patient-medicare-testident-ab"/>
       </reference>
       <name value="Patient with a local test identifier"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-valid-testident-ac"/>
+        <reference value="Patient/test-example-patient-medicare-testident-ac"/>
       </reference>
       <name value="Patient with Medicare Number"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-valid-testident-ad"/>
+        <reference value="Patient/test-example-patient-medicare-testident-ad"/>
       </reference>
       <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-ag"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-ah"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-ai"/>
+      </reference>
+      <name value="Patient with DVA number only; with no Medicare Number and no locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-ap"/>
+      </reference>
+      <name value="Patient with Medicare Number and a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-aj"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-ak"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-al"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-am"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-an"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-ao"/>
+      </reference>
+      <name value="Patient with DVA number only; with no Medicare Number and no locally defined identifier"/>
     </resource>
     <page>
       <nameUrl value="index.html"/>

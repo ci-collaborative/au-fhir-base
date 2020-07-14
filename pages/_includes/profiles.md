@@ -107,7 +107,7 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
         <th>Description</th>
       </tr>
       <tr>
-        <td rowspan="5"><a href="StructureDefinition-au-patient-ident-choice.html">AU Base Patient with Allowed types</a></td>
+        <td rowspan="7"><a href="StructureDefinition-au-patient-ident-choice.html">AU Base Patient with Allowed types</a></td>
         <td><a href="StructureDefinition-patient-ident-choice-ident.html">Patient with Mandatory Identifier</a></td>
         <td>Derived profile uses cardinality to enforce at least one identifier</td>
       </tr>
@@ -128,11 +128,11 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
         <td>Derived profile uses allowed types to only allow IHIs and Medicare Numbers</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-choice-ihi-testident.html">Patient with Medicare Number and a Locally Defined Identifier Type</a></td>
+        <td><a href="StructureDefinition-patient-ident-choice-med-testident.html">Patient with Medicare Number and a Locally Defined Identifier Type</a></td>
         <td>Derived profile uses open slice to allow max one Medicare Number and max one of a locally defined Identifier</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-choice-ihi-testident-closedslice.html">Patient with Medicare Number and a Locally Defined Identifier Type Closed Type</a></td>
+        <td><a href="StructureDefinition-patient-ident-choice-med-testident-closedslice.html">Patient with Medicare Number and a Locally Defined Identifier Type Closed Type</a></td>
         <td>Derived profile uses closed slice to allow max two identifiers: Medicare Number and and a single locally defined Identifier</td>
       </tr>
     </tbody>
@@ -178,5 +178,6 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
 </table>
 
 #### Identifier Data Type
-* [Patient Test Identifier](StructureDefinition-identifier-patient-test-ident.html) - locally defined Identifier profile, not predefined in HL7 AU Base
+
+[Patient Test Identifier](StructureDefinition-identifier-patient-test-ident.html) - locally defined Identifier profile, not predefined in HL7 AU Base
 =======

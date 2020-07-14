@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patient xmlns="http://hl7.org/fhir">
-    <id value="test-example-patient-medicare-valid-testident-ac"/>
+    <id value="test-example-patient-medicare-testident-ap"/>
     <meta>
         <profile
-            value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-choice-ihi-testident"/>
+            value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-choice-med-testident-closedslice"/>
     </meta>
     <identifier>
         <type>
@@ -19,5 +19,9 @@
         <period>
             <end value="2019-05"/>
         </period>
+    </identifier>
+    <identifier>
+        <system value="http://test.identifier.org/id/patient-identifier"/>
+        <value value="123456"/>
     </identifier>
 </Patient>
