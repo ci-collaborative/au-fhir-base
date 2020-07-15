@@ -1488,6 +1488,31 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-identifier-r"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-s"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-t"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>  
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-u"/>
+      </reference>
+      <name value="Patient with identifier"/>
+    </resource>
+    
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-ihi-a"/>
       </reference>
       <name value="Patient with IHI"/>
@@ -1992,6 +2017,30 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-r"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-s"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-t"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-identifier-value-only-u"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-local-identifiers-a"/>
       </reference>
       <name value="Patient with identifier with value only"/>
@@ -2148,37 +2197,37 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-testident-aa"/>
+        <reference value="Patient/test-example-patient-medicare-testident-r"/>
       </reference>
       <name value="Patient with Medicare Number and a local test identifier"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-testident-ab"/>
+        <reference value="Patient/test-example-patient-testident-r"/>
       </reference>
       <name value="Patient with a local test identifier"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-testident-ac"/>
+        <reference value="Patient/test-example-patient-medicare-r"/>
       </reference>
       <name value="Patient with Medicare Number"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-testident-ad"/>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-r"/>
       </reference>
       <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-testident-ag"/>
+        <reference value="Patient/test-example-patient-medicare-inv-testident-r"/>
       </reference>
       <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-testident-dva-ah"/>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-r"/>
       </reference>
       <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
     </resource>

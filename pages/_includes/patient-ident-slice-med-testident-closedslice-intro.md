@@ -1,4 +1,4 @@
-**Patient with Medicare Number and a Locally Defined Identifier Type Closed Slice ** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
+**Patient with Medicare Number and a Locally Defined Identifier Closed Slice** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
 
 Prototype derived profile uses open closed slice to allow maximum of one Medicare Numvber and maximum of one locally defined Identifier types (not defined in AU Base).
 
@@ -19,6 +19,20 @@ Prototype derived profile uses open closed slice to allow maximum of one Medicar
         <th>Expected</th>
         <th>Actual</th>
 		<th>Notes</th>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-identifier-value-only-u.html">Patient with only identifier.value</a></td>
+        <td>test-example-patient-identifier-value-only-u</td>
+        <td>Fail</td>
+        <td>Fail</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-identifier-u.html">Patient with identifier.value and system (uuid)</a></td>
+        <td>test-example-patient-identifier-u</td>
+        <td>Fail</td>
+        <td>Fail</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-medicare-testident-ax.html">Patient with Medicare Number and a valid locally defined identifier</a></td>
