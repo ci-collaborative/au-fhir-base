@@ -63,8 +63,8 @@ Prototype derived profile uses open slice to allow maximum of one Medicare Numvb
         <td>Profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-choice-ihi-testident, Element 'Patient.identifier[medicareNumber]': max allowed = 1, but found 2</br>	Profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-choice-ihi-testident, Element 'Patient.identifier[testIdentifier]': max allowed = 1, but found 2</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-inv-testident.html">Patient with a valid Medicare Number and a non-valid locally defined identifier with Identifier.system only</a></td>
-        <td>test-example-patient-medicare-inv-testident</td>
+        <td><a href="Patient-test-example-patient-medicare-inv-testident-r.html">Patient with a valid Medicare Number and a non-valid locally defined identifier with Identifier.system only</a></td>
+        <td>test-example-patient-medicare-inv-testident-r</td>
         <td>Fail</td>
         <td>Fail</td>
         <td>Profile http://hl7.org.au/fhir/StructureDefinition/identifier-patient-test-ident, Element 'Patient.identifier[1].value': minimum required = 1, but only found 0</td>
