@@ -35,43 +35,43 @@ Prototype derived profile uses open slice to allow maximum of one Medicare Numvb
         <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber')): Not supported yet</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-testident-aq.html">Patient with Medicare Number and a valid locally defined identifier</a></td>
-        <td>test-example-patient-medicare-testident-aq</td>
+        <td><a href="Patient-test-example-patient-medicare-testident-t.html">Patient with Medicare Number and a valid locally defined identifier</a></td>
+        <td>test-example-patient-medicare-testident-t</td>
         <td>Pass</td>
         <td>Fail</td>
         <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident-closedslice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber')): Not supported yet</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-testident-ar.html">Patient with valid locally defined identifier</a></td>
-        <td>test-example-patient-medicare-testident-ar</td>
+        <td><a href="Patient-test-example-patient-testident-t.html">Patient with valid locally defined identifier</a></td>
+        <td>test-example-patient-testident-t</td>
         <td>Pass</td>
         <td>Fail</td>
         <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident-closedslice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber')): Not supported yet</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-testident-as.html">Patient with Medicare Number</a></td>
-        <td>test-example-patient-medicare-testident-as</td>
+        <td><a href="Patient-test-example-patient-medicare-t.html">Patient with Medicare Number</a></td>
+        <td>test-example-patient-medicare-t</td>
         <td>Pass</td>
         <td>Fail</td>
         <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident-closedslice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber')): Not supported yet</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-testident-at.html">Patient with two Medicare Number and two valid locally defined identifiers</a></td>
-        <td>test-example-patient-medicare-testident-at</td>
+        <td><a href="Patient-test-example-patient-mult-medicare-testident-t.html">Patient with two Medicare Number and two valid locally defined identifiers</a></td>
+        <td>test-example-patient-mult-medicare-testident-t</td>
         <td>Fail</td>
         <td>Fail</td>
         <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident-closedslice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber')): Not supported yet</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-testident-au.html">Patient with a valid Medicare Number and a non-valid locally defined identifier with Identifier.system only</a></td>
-        <td>test-example-patient-medicare-testident-au</td>
+        <td><a href="Patient-test-example-patient-medicare-inv-testident-t.html">Patient with a valid Medicare Number and a non-valid locally defined identifier with Identifier.system only</a></td>
+        <td>test-example-patient-medicare-inv-testident-t</td>
         <td>Fail</td>
         <td>Fail</td>
         <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident-closedslice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber')): Not supported yet</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-testident-dva-av.html">Patient with Medicare Number, locally defined identifier and DVA number</a></td>
-        <td>test-example-patient-medicare-testident-dva-av</td>
+        <td><a href="Patient-test-example-patient-medicare-testident-dva-t.html">Patient with Medicare Number, locally defined identifier and DVA number</a></td>
+        <td>test-example-patient-medicare-testident-dva-t</td>
         <td>Pass</td>
         <td>Fail</td>
         <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident-closedslice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber')): Not supported yet</td>
