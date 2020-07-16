@@ -1627,6 +1627,18 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-ihi-t"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-u"/>
+      </reference>
+      <name value="Patient with IHI"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-a"/>
       </reference>
       <name value="Patient with IHI, Medicare Number"/>
@@ -1736,6 +1748,18 @@
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-s"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-t"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-u"/>
       </reference>
       <name value="Patient with IHI, Medicare Number"/>
     </resource>
@@ -1855,6 +1879,18 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-t"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-u"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-a"/>
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
@@ -1958,6 +1994,18 @@
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-s"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-t"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-u"/>
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
     </resource>
@@ -2203,6 +2251,18 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-t"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-local-identifiers-u"/>
+      </reference>
+      <name value="Patient with identifier with value only"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/example0-guidance"/>
       </reference>
       <name value="example0 conforming to patient with guidance only"/>
@@ -2397,19 +2457,6 @@
         <reference value="Patient/test-example-patient-medicare-testident-dva-u"/>
       </reference>
       <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
-    </resource>
-     
-    <resource>
-      <reference>
-        <reference value="Patient/test-example-patient-medicare-testident-dva-aw"/>
-      </reference>
-      <name value="Patient with DVA number only; with no Medicare Number and no locally defined identifier"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Patient/test-example-patient-medicare-testident-dva-bd"/>
-      </reference>
-      <name value="Patient with DVA number only; with no Medicare Number and no locally defined identifier"/>
     </resource>
     
     <page>
