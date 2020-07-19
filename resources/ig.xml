@@ -2375,6 +2375,108 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-testident-a"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-b"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-c"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-d"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-e"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-f"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-g"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-h"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-i"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-j"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-k"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-l"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-m"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-n"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-o"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-p"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-testident-q"/>
+      </reference>
+      <name value="Patient with a local test identifier"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-testident-r"/>
       </reference>
       <name value="Patient with a local test identifier"/>
