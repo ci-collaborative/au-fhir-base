@@ -69,5 +69,47 @@ Prototype derived profile uses uses cardinality to enforce at least one identifi
         <td>Pass</td>
         <td>-</td>
       </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-testident-b.html">Patient with Medicare Number and a valid Patient Test Identifier</a></td>
+        <td>test-example-patient-medicare-testident-b</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-testident-b.html">Patient with valid Patient Test Identifier</a></td>
+        <td>test-example-patient-testident-b</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-b.html">Patient with Medicare Number</a></td>
+        <td>test-example-patient-medicare-b</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-mult-medicare-testident-b.html">Patient with two Medicare Number and two valid Patient Test Identifiers</a></td>
+        <td>test-example-patient-mult-medicare-testident-b</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-invalid-testident-b.html">Patient with a valid Medicare Number and a non-valid Patient Test Identifier with Identifier.system only</a></td>
+        <td>test-example-patient-medicare-invalid-testident-b</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-testident-dva-b.html">Patient with Medicare Number, Patient Test Identifier and DVA number</a></td>
+        <td>test-example-patient-medicare-testident-dva-b</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
     </tbody>
 </table>

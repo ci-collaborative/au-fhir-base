@@ -99,5 +99,47 @@ To indicate an interpreter service is required, extension interpreter required=t
         <td>Pass</td>
         <td>-</td>
       </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-testident-a.html">Patient with Medicare Number and a valid Patient Test Identifier</a></td>
+        <td>test-example-patient-medicare-testident-a</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-testident-a.html">Patient with valid Patient Test Identifier</a></td>
+        <td>test-example-patient-testident-a</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-a.html">Patient with Medicare Number</a></td>
+        <td>test-example-patient-medicare-a</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-mult-medicare-testident-a.html">Patient with two Medicare Number and two valid Patient Test Identifiers</a></td>
+        <td>test-example-patient-mult-medicare-testident-a</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-invalid-testident-a.html">Patient with a valid Medicare Number and a non-valid Patient Test Identifier with Identifier.system only</a></td>
+        <td>test-example-patient-medicare-invalid-testident-a</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-testident-dva-a.html">Patient with Medicare Number, Patient Test Identifier and DVA number</a></td>
+        <td>test-example-patient-medicare-testident-dva-a</td>
+        <td>Pass</td>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
     </tbody>
 </table>
