@@ -3,8 +3,8 @@
   <id value="patient-ident-choice-med-testident-closedslice"/>
   <url
     value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-choice-med-testident-closedslice"/>
-  <name value="PatientwithIHIandTestIdentifierClosedSlice"/>
-  <title value="Patient with IHI and Test Identifier with Closed Slice"/>
+  <name value="PatientwithMedicareNumberTestIdent"/>
+  <title value="Patient with Medicare Number and Patient Test Identifier Closed Slice"/>
   <status value="draft"/>
   <fhirVersion value="4.0.1"/>
   <kind value="resource"/>

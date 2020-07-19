@@ -2,8 +2,8 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="patient-ident-choice-med-testident"/>
   <url value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-choice-med-testident"/>
-  <name value="PatientwithIHIandTestIdentifier"/>
-  <title value="Patient with IHI and Test Identifier"/>
+  <name value="PatientwithMedicareNumberTestIdent"/>
+  <title value="Patient with Medicare Number and Patient Test Identifier"/>
   <status value="draft"/>
   <fhirVersion value="4.0.1"/>
   <kind value="resource"/>

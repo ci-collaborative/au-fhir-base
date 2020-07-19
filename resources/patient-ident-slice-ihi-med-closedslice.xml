@@ -3,6 +3,7 @@
   <id value="patient-ident-slice-ihi-med-closedslice" />
   <url value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-ihi-med-closedslice" />
   <name value="PatientIdentSliceIHIMedicareNumber" />
+  <title value="Patient with IHI and Medicare Number Closed Slice" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
@@ -29,6 +30,16 @@
       <sliceName value="medicareNumber" />
       <max value="1" />
       <mustSupport value="true" />
+    </element>
+    <element id="Patient.identifier:medicalRecordNumber">
+      <path value="Patient.identifier" />
+      <sliceName value="medicalRecordNumber" />
+      <max value="0" />
+    </element>
+    <element id="Patient.identifier:dvaNumber">
+      <path value="Patient.identifier" />
+      <sliceName value="dvaNumber" />
+      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patient xmlns="http://hl7.org/fhir">
-    <id value="test-example-patient-medicare-inv-testident-s"/>
+    <id value="test-example-patient-medicare-invalid-testident-u"/>
     <meta>
         <profile
-            value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-choice-med-testident-closedslice"/>
+            value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident-closedslice"/>
     </meta>
     <identifier>
         <type>

@@ -133,12 +133,12 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
         <td>Derived profile uses allowed types to only allow IHIs and Medicare Numbers</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-choice-med-testident.html">Patient with Medicare Number and Locally Defined Identifier</a></td>
-        <td>Derived profile uses open slice to allow max one Medicare Number and max one of a locally defined Identifier</td>
+        <td><a href="StructureDefinition-patient-ident-choice-med-testident.html">Patient with Medicare Number and Patient Test Identifier</a></td>
+        <td>Derived profile uses open slice to allow max one Medicare Number and max one of a Patient Test Identifier</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-choice-med-testident-closedslice.html">Patient with Medicare Number and Locally Defined Identifier Closed Slice</a></td>
-        <td>Derived profile uses closed slice to allow max two identifiers: Medicare Number and and a single locally defined Identifier</td>
+        <td><a href="StructureDefinition-patient-ident-choice-med-testident-closedslice.html">Patient with Medicare Number and Patient Test Identifier Closed Slice</a></td>
+        <td>Derived profile uses closed slice to allow max two identifiers: Medicare Number and and a single Patient Test Identifier</td>
       </tr>
     </tbody>
 </table>
@@ -180,17 +180,17 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
         <td>Not possible when deriving from a sliced profile?</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-slice-med-testident.html">Patient with Medicare Number and Locally Defined Identifier</a></td>
-        <td>Derived profile uses open slice to allow max one Medicare Number, and max one locally defined identifier</td>
+        <td><a href="StructureDefinition-patient-ident-slice-med-testident.html">Patient with Medicare Number and Patient Test Identifier</a></td>
+        <td>Derived profile uses open slice to allow max one Medicare Number, and max one Patient Test Identifier</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-slice-med-testident-closedslice.html">Patient with Medicare Number and Locally Defined Identifier Closed Slice</a></td>
-        <td>Derived profile uses closed slice to allow max one Medicare Number, and max one locally defined identifier</td>
+        <td><a href="StructureDefinition-patient-ident-slice-med-testident-closedslice.html">Patient with Medicare Number and Patient Test Identifier Closed Slice</a></td>
+        <td>Derived profile uses closed slice to allow max two identifiers: Medicare Number and and a single Patient Test Identifier</td>
       </tr>
     </tbody>
 </table>
 
 
 #### Identifier Data Type
-[Patient Test Identifier](StructureDefinition-identifier-patient-test-ident.html) - locally defined Identifier profile, not predefined in HL7 AU Base
+[Patient Test Identifier](StructureDefinition-identifier-patient-test-ident.html) - Patient Test Identifier is intended to demonstrate an identifier with a data type profile that is not present in AU Base and has been added in the derived profile e.g. could be local to a specific implementation only.
 

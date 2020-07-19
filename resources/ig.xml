@@ -2399,6 +2399,108 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-medicare-a"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-b"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-c"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-d"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-e"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-f"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-g"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-h"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-i"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-j"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-k"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-l"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-m"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-n"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-o"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-p"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-q"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-medicare-r"/>
       </reference>
       <name value="Patient with Medicare Number"/>
@@ -2447,25 +2549,127 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-inv-testident-r"/>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-a"/>
       </reference>
       <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-inv-testident-s"/>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-b"/>
       </reference>
       <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-inv-testident-t"/>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-c"/>
       </reference>
       <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/test-example-patient-medicare-inv-testident-u"/>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-d"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-e"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-f"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-g"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-h"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-i"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-j"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-k"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-l"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-m"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-n"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-o"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-p"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-q"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-r"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-s"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-t"/>
+      </reference>
+      <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-invalid-testident-u"/>
       </reference>
       <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
     </resource>
