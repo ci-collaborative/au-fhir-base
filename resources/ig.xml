@@ -2627,6 +2627,108 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-a"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-b"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-c"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-d"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-e"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-f"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-g"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-h"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-i"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-j"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-k"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-l"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-m"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-n"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-o"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-p"/>
+      </reference>
+      <name value="Patient with Medicare Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-mult-medicare-testident-q"/>
+      </reference>
+      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-mult-medicare-testident-r"/>
       </reference>
       <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
@@ -2641,7 +2743,7 @@
       <reference>
         <reference value="Patient/test-example-patient-mult-medicare-testident-t"/>
       </reference>
-      <name value="Patient with two Medicare Numbers and two locally defined identifiers"/>
+      <name value="Patient with Medicare Number"/>
     </resource>
     <resource>
       <reference>
