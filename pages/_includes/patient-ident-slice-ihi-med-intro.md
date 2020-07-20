@@ -69,6 +69,48 @@ Prototype derived profile uses open slice to allow max one IHI, max one Medicare
         <td>Fail</td>
         <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-ident path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>
       </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-testident-p.html">Patient with Medicare Number and a valid Patient Test Identifier</a></td>
+        <td>test-example-patient-medicare-testident-p</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-testident-p.html">Patient with valid Patient Test Identifier</a></td>
+        <td>test-example-patient-testident-p</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-p.html">Patient with Medicare Number</a></td>
+        <td>test-example-patient-medicare-p</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-mult-medicare-testident-p.html">Patient with two Medicare Number and two valid Patient Test Identifiers</a></td>
+        <td>test-example-patient-mult-medicare-testident-p</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-invalid-testident-p.html">Patient with a valid Medicare Number and a non-valid Patient Test Identifier with Identifier.system only</a></td>
+        <td>test-example-patient-medicare-invalid-testident-p</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-testident-dva-p.html">Patient with Medicare Number, Patient Test Identifier and DVA number</a></td>
+        <td>test-example-patient-medicare-testident-dva-p</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
     </tbody>
 </table>
 
