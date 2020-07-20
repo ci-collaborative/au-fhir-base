@@ -3,7 +3,7 @@
     <id value="test-example-patient-medicare-testident-dva-a"/>
     <meta>
         <profile
-            value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-slice-med-testident-closedslice"/>
+            value="http://hl7.org.au/fhir/StructureDefinition/au-patient-guidance"/>
     </meta>
     <identifier>
         <type>

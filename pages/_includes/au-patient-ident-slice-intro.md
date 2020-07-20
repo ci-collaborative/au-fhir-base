@@ -114,8 +114,8 @@ To indicate an interpreter service is required, extension interpreter required=t
         <td>-</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-t.html">Patient with Medicare Number</a></td>
-        <td>test-example-patient-medicare-t</td>
+        <td><a href="Patient-test-example-patient-medicare-m.html">Patient with Medicare Number</a></td>
+        <td>test-example-patient-medicare-m</td>
         <td>Pass</td>
         <td>Pass</td>
         <td>-</td>
@@ -135,8 +135,8 @@ To indicate an interpreter service is required, extension interpreter required=t
         <td>-</td>
       </tr>
       <tr>
-        <td><a href="Patient-test-example-patient-medicare-testident-dva-t.html">Patient with Medicare Number, Patient Test Identifier and DVA number</a></td>
-        <td>test-example-patient-medicare-testident-dva-t</td>
+        <td><a href="Patient-test-example-patient-medicare-testident-dva-m.html">Patient with Medicare Number, Patient Test Identifier and DVA number</a></td>
+        <td>test-example-patient-medicare-testident-dva-m</td>
         <td>Pass</td>
         <td>Pass</td>
         <td>-</td>

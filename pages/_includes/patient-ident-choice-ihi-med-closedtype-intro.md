@@ -72,43 +72,43 @@ Prototype derived profile uses allowed types to only allow IHIs and Medicare Num
       <tr>
         <td><a href="Patient-test-example-patient-medicare-testident-l.html">Patient with Medicare Number and a valid Patient Test Identifier</a></td>
         <td>test-example-patient-medicare-testident-l</td>
-        <td>?</td>
-        <td>?</td>
+        <td>Fail</td>
+        <td>Fail</td>
         <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-testident-l.html">Patient with valid Patient Test Identifier</a></td>
         <td>test-example-patient-testident-l</td>
-        <td>?</td>
-        <td>?</td>
+        <td>Fail</td>
+        <td>Fail</td>
         <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-medicare-l.html">Patient with Medicare Number</a></td>
         <td>test-example-patient-medicare-l</td>
-        <td>?</td>
-        <td>?</td>
+        <td>Pass</td>
+        <td>Pass</td>
         <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-mult-medicare-testident-l.html">Patient with two Medicare Number and two valid Patient Test Identifiers</a></td>
         <td>test-example-patient-mult-medicare-testident-l</td>
-        <td>?</td>
-        <td>?</td>
+        <td>Fail</td>
+        <td>Fail</td>
         <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-medicare-invalid-testident-l.html">Patient with a valid Medicare Number and a non-valid Patient Test Identifier with Identifier.system only</a></td>
         <td>test-example-patient-medicare-invalid-testident-l</td>
-        <td>?</td>
-        <td>?</td>
+        <td>Fail</td>
+        <td>Fail</td>
         <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-medicare-testident-dva-l.html">Patient with Medicare Number, Patient Test Identifier and DVA number</a></td>
         <td>test-example-patient-medicare-testident-dva-l</td>
-        <td>?</td>
-        <td>?</td>
+        <td>Fail</td>
+        <td>Fail</td>
         <td>-</td>
       </tr>
     </tbody>
