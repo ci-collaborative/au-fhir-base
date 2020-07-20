@@ -1962,6 +1962,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-g"/>
+      </reference>
+      <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-h"/>
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
