@@ -173,7 +173,7 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
       </tr>
       <tr>
         <td><a href="StructureDefinition-patient-ident-slice-ihi-med.html">Patient with IHI and Medicare Number Open Slice</a></td>
-        <td>Derived profile _tries_ to use an open slice to allow max one IHI, max one Medicare Number, and any other identifiers</td>
+        <td>Derived profile *tries* to use an open slice to allow max one IHI, max one Medicare Number, and any other identifiers</td>
       </tr>
       <tr>
         <td><a href="StructureDefinition-patient-ident-slice-ihi-med-closedslice.html">Patient with IHI and Medicare Number Closed Slice</a></td>

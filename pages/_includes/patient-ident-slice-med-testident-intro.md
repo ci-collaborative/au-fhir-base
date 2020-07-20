@@ -6,11 +6,11 @@ Prototype derived profile uses open slice to allow maximum of one Medicare Numvb
 
 <table class="list" style="width:100%">
     <colgroup>
-       <col span="1" style="width: 19%;"/>
+       <col span="1" style="width: 24%;"/>
        <col span="1" style="width: 25%;"/>
        <col span="1" style="width: 10%;"/>
        <col span="1" style="width: 10%;"/>
-       <col span="1" style="width: 20%;"/>
+       <col span="1" style="width: 15%;"/>
     </colgroup>
 	<tbody>
       <tr>
@@ -44,9 +44,9 @@ Prototype derived profile uses open slice to allow maximum of one Medicare Numvb
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-t.html">Patient with a valid IHI and a non-valid IHI and Medicare Number</a></td>
         <td>test-example-patient-ihi-medicare-t</td>
-        <td>Fail</td>
         <td>Pass</td>
-        <td>???? TBD</td>
+        <td>Pass</td>
+        <td>NOTE that when inheriting with profile, an 'invalid' IHI just reads as 'some other identifier type' so this won't fail an invalid IHI.</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-t.html">Patient with IHI and Medicare Number and DVA number</a></td>
@@ -102,7 +102,7 @@ Prototype derived profile uses open slice to allow maximum of one Medicare Numvb
         <td>test-example-patient-medicare-invalid-testident-t</td>
         <td>Pass</td>
         <td>Pass</td>
-        <td>-</td>
+        <td>NOTE that when inheriting with profile, an 'invalid' Patient Test Identifier just reads as 'some other identifier type' due to how the data type profile is defined.</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-medicare-testident-dva-t.html">Patient with Medicare Number, Patient Test Identifier and DVA number</a></td>

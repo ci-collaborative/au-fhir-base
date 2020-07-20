@@ -1,4 +1,4 @@
-**Patient with Medicare Number and Patient Test Identifier** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
+**Patient with Medicare Number and Patient Test Identifier Open Slice** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
 
 Prototype derived profile uses open slice to allow maximum of one Medicare Number and maximum of one Patient Test Identifier. Patient Test Identifier is intended to demonstrate an identifier with a data type profile that is not present in AU Base and has been added in the derived profile e.g. could be local to a specific implementation only.
 
@@ -6,11 +6,11 @@ Prototype derived profile uses open slice to allow maximum of one Medicare Numbe
 
 <table class="list" style="width:100%">
     <colgroup>
-       <col span="1" style="width: 19%;"/>
+       <col span="1" style="width: 24%;"/>
        <col span="1" style="width: 25%;"/>
        <col span="1" style="width: 10%;"/>
        <col span="1" style="width: 10%;"/>
-       <col span="1" style="width: 20%;"/>
+       <col span="1" style="width: 15%;"/>
     </colgroup>
 	<tbody>
       <tr>

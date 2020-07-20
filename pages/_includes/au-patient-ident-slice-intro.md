@@ -36,11 +36,11 @@ To indicate an interpreter service is required, extension interpreter required=t
 
 <table class="list" style="width:100%">
     <colgroup>
-       <col span="1" style="width: 19%;"/>
+       <col span="1" style="width: 24%;"/>
        <col span="1" style="width: 25%;"/>
        <col span="1" style="width: 10%;"/>
        <col span="1" style="width: 10%;"/>
-       <col span="1" style="width: 20%;"/>
+       <col span="1" style="width: 15%;"/>
     </colgroup>
 	<tbody>
       <tr>

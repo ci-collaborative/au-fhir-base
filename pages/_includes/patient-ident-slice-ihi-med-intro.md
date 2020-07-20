@@ -6,11 +6,11 @@ Prototype derived profile uses open slice to allow max one IHI, max one Medicare
 
 <table class="list" style="width:100%">
     <colgroup>
-       <col span="1" style="width: 19%;"/>
+       <col span="1" style="width: 24%;"/>
        <col span="1" style="width: 25%;"/>
        <col span="1" style="width: 10%;"/>
        <col span="1" style="width: 10%;"/>
-       <col span="1" style="width: 20%;"/>
+       <col span="1" style="width: 15%;"/>
     </colgroup>
 	<tbody>
       <tr>
@@ -46,7 +46,7 @@ Prototype derived profile uses open slice to allow max one IHI, max one Medicare
         <td>test-example-patient-ihi-medicare-p</td>
         <td>Fail</td>
         <td>Pass</td>
-        <td>????? TBD</td>
+        <td>NOTE that when inheriting with profile, an 'invalid' IHI just reads as 'some other identifier type' so this won't fail an invalid IHI.</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-p.html">Patient with IHI and Medicare Number and DVA number</a></td>

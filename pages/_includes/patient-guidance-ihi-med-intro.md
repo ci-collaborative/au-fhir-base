@@ -1,4 +1,4 @@
-**Patient with IHI and Medicare Number** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
+**Patient with IHI and Medicare Number Open Slice** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
 
 Prototype derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers.
 
@@ -6,11 +6,11 @@ Prototype derived profile uses open slice to allow max one IHI, max one Medicare
 
 <table class="list" style="width:100%">
     <colgroup>
-       <col span="1" style="width: 19%;"/>
+       <col span="1" style="width: 24%;"/>
        <col span="1" style="width: 25%;"/>
        <col span="1" style="width: 10%;"/>
        <col span="1" style="width: 10%;"/>
-       <col span="1" style="width: 20%;"/>
+       <col span="1" style="width: 15%;"/>
     </colgroup>
 	<tbody>
       <tr>
