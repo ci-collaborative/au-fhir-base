@@ -55,21 +55,22 @@ To indicate an interpreter service is required, extension interpreter required=t
         <td>test-example-patient-identifier-value-only-m</td>
         <td>Pass</td>
         <td>Pass</td>
-        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-identifier-m.html">Patient with identifier.value and system (uuid)</a></td>
         <td>test-example-patient-identifier-m</td>
         <td>Pass</td>
-        <td>Fail</td>
-        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>
+        <td>Pass</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-m.html">Patient with IHI</a></td>
         <td>test-example-patient-ihi-m</td>
         <td>Pass</td>
-        <td>Fail</td>
-        <td>Internal error: Problem evaluating slicing expression for element in profile http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-slice path Patient.identifier[0] (fhirPath = true and $this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')): Not supported yet</td>      </tr>
+        <td>Pass</td>
+        <td>-</td>
+      </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-m.html">Patient with a valid IHI and a non-valid IHI and Medicare Number</a></td>
         <td>test-example-patient-ihi-medicare-m</td>
