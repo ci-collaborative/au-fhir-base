@@ -1539,12 +1539,12 @@
       </reference>
       <name value="Patient with identifier"/>
     </resource>  
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-identifier-u"/>
       </reference>
       <name value="Patient with identifier"/>
-    </resource>
+    </resource>-->
     
     <resource>
       <reference>
@@ -1666,12 +1666,12 @@
       </reference>
       <name value="Patient with IHI"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-u"/>
       </reference>
       <name value="Patient with IHI"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-a"/>
@@ -1792,12 +1792,12 @@
       </reference>
       <name value="Patient with IHI, Medicare Number"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-u"/>
       </reference>
       <name value="Patient with IHI, Medicare Number"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-dva-a"/>
@@ -1918,12 +1918,12 @@
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-dva-u"/>
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-a"/>
@@ -2044,12 +2044,12 @@
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-ihi-medicare-dva-mr-u"/>
       </reference>
       <name value="Patient with IHI, Medicare Number, DVA Number,MRN"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-identifier-value-only-a"/>
@@ -2170,12 +2170,12 @@
       </reference>
       <name value="Patient with identifier with value only"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-identifier-value-only-u"/>
       </reference>
       <name value="Patient with identifier with value only"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-local-identifiers-a"/>
@@ -2296,12 +2296,12 @@
       </reference>
       <name value="Patient with identifier with value only"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-local-identifiers-u"/>
       </reference>
       <name value="Patient with identifier with value only"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/example0-guidance"/>
@@ -2336,13 +2336,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/patient-ident-choice-med-testident-closedslice"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/patient-ident-slice-med-testident"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -2350,7 +2343,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/patient-ident-slice-med-testident-closedslice"/>
+        <reference value="StructureDefinition/patient-guidance-med-testident"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -2475,12 +2468,12 @@
       </reference>
       <name value="Patient with Medicare Number and a local test identifier"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-medicare-testident-u"/>
       </reference>
       <name value="Patient with Medicare Number and a local test identifier"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-testident-a"/>
@@ -2601,12 +2594,12 @@
       </reference>
       <name value="Patient with a local test identifier"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-testident-u"/>
       </reference>
       <name value="Patient with a local test identifier"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-medicare-a"/>
@@ -2727,12 +2720,12 @@
       </reference>
       <name value="Patient with Medicare Number"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-medicare-u"/>
       </reference>
       <name value="Patient with Medicare Number"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-mult-medicare-testident-a"/>
@@ -2853,12 +2846,12 @@
       </reference>
       <name value="Patient with Medicare Number"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-mult-medicare-testident-u"/>
       </reference>
       <name value="Patient with Medicare Number"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-medicare-invalid-testident-a"/>
@@ -2979,12 +2972,12 @@
       </reference>
       <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-medicare-invalid-testident-u"/>
       </reference>
       <name value="Patient with Medicare Numbers and invalid locally defined identifier"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Patient/test-example-patient-medicare-testident-dva-a"/>
@@ -3105,12 +3098,12 @@
       </reference>
       <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Patient/test-example-patient-medicare-testident-dva-u"/>
       </reference>
       <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
-    </resource>
+    </resource>-->
     
     <page>
       <nameUrl value="index.html"/>
