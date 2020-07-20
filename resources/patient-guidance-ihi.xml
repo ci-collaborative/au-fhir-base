@@ -16,8 +16,8 @@
       <constraint>
         <key value="inv-pat-g-i-0"/>
         <severity value="error"/>
-        <human value="At least one identifier shall be an IHI" />
-        <expression value="identifier.where($this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')).exists()" />
+        <human value="One and only one identifier shall be an IHI" />
+        <expression value="(identifier.($this.conformsTo('http://hl7.org.au/fhir/StructureDefinition/au-ihinumber')).count() = 1)" />
         <source value="http://hl7.org.au/fhir/StructureDefinition/patient-guidance-ihi"/>
       </constraint>
     </element>

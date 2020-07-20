@@ -1,6 +1,6 @@
 **Patient with Mandatory IHI** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
 
-Prototype derived profile uses open slice to mandate one and only one IHI.
+Prototype derived profile tries to use an open slice to mandate one and only one IHI - but will require an invariant to actually enforce that.
 
 #### Test Examples
 
@@ -46,7 +46,7 @@ Prototype derived profile uses open slice to mandate one and only one IHI.
         <td>test-example-patient-ihi-medicare-o</td>
         <td>Fail</td>
         <td>Pass</td>
-        <td>????? TBD</td>
+        <td>NOTE that when inheriting with profile, an 'invalid' IHI just reads as 'some other identifier type' so this won't fail an invalid IHI.</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-ihi-medicare-dva-o.html">Patient with IHI and Medicare Number and DVA number</a></td>
