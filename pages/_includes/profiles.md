@@ -136,10 +136,10 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
         <td><a href="StructureDefinition-patient-ident-choice-med-testident.html">Patient with Medicare Number and Patient Test Identifier</a></td>
         <td>Derived profile uses open slice to allow max one Medicare Number and max one of a Patient Test Identifier</td>
       </tr>
-      <tr>
+      <!--<tr>
         <td><a href="StructureDefinition-patient-ident-choice-med-testident-closedslice.html">Patient with Medicare Number and Patient Test Identifier Closed Slice</a></td>
         <td>Derived profile uses closed slice to allow max two identifiers: Medicare Number and and a single Patient Test Identifier</td>
-      </tr>
+      </tr>-->
     </tbody>
 </table>
 
@@ -183,10 +183,10 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
         <td><a href="StructureDefinition-patient-ident-slice-med-testident.html">Patient with Medicare Number and Patient Test Identifier</a></td>
         <td>Derived profile uses open slice to allow max one Medicare Number, and max one Patient Test Identifier</td>
       </tr>
-      <tr>
+      <!--<tr>
         <td><a href="StructureDefinition-patient-ident-slice-med-testident-closedslice.html">Patient with Medicare Number and Patient Test Identifier Closed Slice</a></td>
         <td>Derived profile uses closed slice to allow max two identifiers: Medicare Number and and a single Patient Test Identifier</td>
-      </tr>
+      </tr>-->
     </tbody>
 </table>
 
