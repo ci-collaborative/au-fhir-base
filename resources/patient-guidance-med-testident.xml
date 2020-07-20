@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="patient-ident-choice-med-testident-closedslice"/>
-  <url
-    value="http://hl7.org.au/fhir/StructureDefinition/patient-ident-choice-med-testident-closedslice"/>
+  <id value="patient-guidance-med-testident"/>
+  <url value="http://hl7.org.au/fhir/StructureDefinition/patient-guidance-med-testident"/>
   <name value="PatientwithMedicareNumberTestIdent"/>
-  <title value="Patient with Medicare Number and Patient Test Identifier Closed Slice"/>
+  <title value="Patient with Medicare Number and Patient Test Identifier"/>
   <status value="draft"/>
   <fhirVersion value="4.0.1"/>
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Patient"/>
-  <baseDefinition value="http://hl7.org.au/fhir/StructureDefinition/au-patient-ident-choice"/>
+  <baseDefinition value="http://hl7.org.au/fhir/StructureDefinition/au-patient-guidance"/>
   <derivation value="constraint"/>
   <differential>
     <element id="Patient.identifier">
@@ -20,7 +19,7 @@
           <type value="value"/>
           <path value="system"/>
         </discriminator>
-        <rules value="closed"/>
+        <rules value="open"/>
       </slicing>
       <mustSupport value="true"/>
     </element>

@@ -73,7 +73,7 @@ Demonstrates inclusion of Identifier data type profiles by guidance only - no di
         <th>Description</th>
       </tr>
       <tr>
-        <td rowspan="5"><a href="StructureDefinition-au-patient-guidance.html">AU Base Patient with Guidance only</a></td>
+        <td rowspan="6"><a href="StructureDefinition-au-patient-guidance.html">AU Base Patient with Guidance only</a></td>
         <td><a href="StructureDefinition-patient-guidance-ident.html">Patient with Mandatory Identifier</a></td>
         <td>Derived profile uses cardinality to enforce at least one identifier</td>
       </tr>
@@ -82,7 +82,7 @@ Demonstrates inclusion of Identifier data type profiles by guidance only - no di
         <td>Derived profile uses open slice to mandate one and only one IHI</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-guidance-ihi-med.html">Patient with IHI and Medicare Number</a></td>
+        <td><a href="StructureDefinition-patient-guidance-ihi-med.html">Patient with IHI and Medicare Number Open Slice</a></td>
         <td>Derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers</td>
       </tr>
       <tr>
@@ -92,6 +92,10 @@ Demonstrates inclusion of Identifier data type profiles by guidance only - no di
       <tr>
         <td><a href="StructureDefinition-patient-guidance-ihi-med-closedtype.html">Patient with IHI and Medicare Number Closed Type</a></td>
         <td>Derived profile uses allowed types to only allow IHIs and Medicare Numbers</td>
+      </tr>
+      <tr>
+        <td><a href="StructureDefinition-patient-guidance-med-testident.html">Patient with Medicare Number and Patient Test Identifier Open Slice</a></td>
+        <td>Derived profile uses open slice to allow max one Medicare Number and max one of a Patient Test Identifier</td>
       </tr>
     </tbody>
 </table>
@@ -112,7 +116,7 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
         <th>Description</th>
       </tr>
       <tr>
-        <td rowspan="7"><a href="StructureDefinition-au-patient-ident-choice.html">AU Base Patient with Allowed types</a></td>
+        <td rowspan="6"><a href="StructureDefinition-au-patient-ident-choice.html">AU Base Patient with Allowed types</a></td>
         <td><a href="StructureDefinition-patient-ident-choice-ident.html">Patient with Mandatory Identifier</a></td>
         <td>Derived profile uses cardinality to enforce at least one identifier</td>
       </tr>
@@ -121,7 +125,7 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
         <td>Derived profile uses open slice to mandate one and only one IHI</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-choice-ihi-med.html">Patient with IHI and Medicare Number</a></td>
+        <td><a href="StructureDefinition-patient-ident-choice-ihi-med.html">Patient with IHI and Medicare Number Open Slice</a></td>
         <td>Derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers</td>
       </tr>
       <tr>
@@ -133,7 +137,7 @@ Demonstrates inclusion of Identifier data type profiles by adding as a set of al
         <td>Derived profile uses allowed types to only allow IHIs and Medicare Numbers</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-choice-med-testident.html">Patient with Medicare Number and Patient Test Identifier</a></td>
+        <td><a href="StructureDefinition-patient-ident-choice-med-testident.html">Patient with Medicare Number and Patient Test Identifier Open Slice</a></td>
         <td>Derived profile uses open slice to allow max one Medicare Number and max one of a Patient Test Identifier</td>
       </tr>
       <!--<tr>
@@ -159,7 +163,7 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
         <th>Description</th>
       </tr>
       <tr>
-        <td rowspan="7"><a href="StructureDefinition-au-patient-ident-slice.html">AU Base Patient with Slices</a></td>
+        <td rowspan="6"><a href="StructureDefinition-au-patient-ident-slice.html">AU Base Patient with Slices</a></td>
         <td><a href="StructureDefinition-patient-ident-slice-ident.html">Patient with Mandatory Identifier</a></td>
         <td>Derived profile uses cardinality to enforce at least one identifier</td>
       </tr>
@@ -168,7 +172,7 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
         <td>Derived profile uses open slice to mandate one and only one IHI</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-slice-ihi-med.html">Patient with IHI and Medicare Number</a></td>
+        <td><a href="StructureDefinition-patient-ident-slice-ihi-med.html">Patient with IHI and Medicare Number Open Slice</a></td>
         <td>Derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers</td>
       </tr>
       <tr>
@@ -180,7 +184,7 @@ Demonstrates inclusion of Identifier data type profiles by slicing on the identi
         <td>Not possible when deriving from a sliced profile?</td>
       </tr>
       <tr>
-        <td><a href="StructureDefinition-patient-ident-slice-med-testident.html">Patient with Medicare Number and Patient Test Identifier</a></td>
+        <td><a href="StructureDefinition-patient-ident-slice-med-testident.html">Patient with Medicare Number and Patient Test Identifier Open Slice</a></td>
         <td>Derived profile uses open slice to allow max one Medicare Number, and max one Patient Test Identifier</td>
       </tr>
       <!--<tr>

@@ -679,21 +679,17 @@
             "base": "StructureDefinition-identifier-patient-test-ident.html",
             "defns": "StructureDefinition-identifier-patient-test-ident-definitions.html"
         },
+        "StructureDefinition/patient-guidance-med-testident": {
+            "base": "StructureDefinition-patient-guidance-med-testident.html",
+            "defns": "StructureDefinition-patient-guidance-med-testident-definitions.html"
+        },
         "StructureDefinition/patient-ident-choice-med-testident": {
             "base": "StructureDefinition-patient-ident-choice-med-testident.html",
             "defns": "StructureDefinition-patient-ident-choice-med-testident-definitions.html"
         },
-        "StructureDefinition/patient-ident-choice-med-testident-closedslice": {
-            "base": "StructureDefinition-patient-ident-choice-med-testident-closedslice.html",
-            "defns": "StructureDefinition-patient-ident-choice-med-testident-closedslice-definitions.html"
-        },
         "StructureDefinition/patient-ident-slice-med-testident": {
             "base": "StructureDefinition-patient-ident-slice-med-testident.html",
             "defns": "StructureDefinition-patient-ident-slice-med-testident-definitions.html"
-        },
-        "StructureDefinition/patient-ident-slice-med-testident-closedslice": {
-            "base": "StructureDefinition-patient-ident-slice-med-testident-closedslice.html",
-            "defns": "StructureDefinition-patient-ident-slice-med-testident-closedslice-definitions.html"
         }  
     }
 }
