@@ -69,5 +69,47 @@ Prototype derived profile uses closed slice to allow only max two identifiers; a
         <td>Fail</td>
         <td>-</td>
       </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-testident-e.html">Patient with Medicare Number and a valid Patient Test Identifier</a></td>
+        <td>test-example-patient-medicare-testident-e</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-testident-e.html">Patient with valid Patient Test Identifier</a></td>
+        <td>test-example-patient-testident-e</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-e.html">Patient with Medicare Number</a></td>
+        <td>test-example-patient-medicare-e</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-mult-medicare-testident-e.html">Patient with two Medicare Number and two valid Patient Test Identifiers</a></td>
+        <td>test-example-patient-mult-medicare-testident-e</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-invalid-testident-e.html">Patient with a valid Medicare Number and a non-valid Patient Test Identifier with Identifier.system only</a></td>
+        <td>test-example-patient-medicare-invalid-testident-e</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="Patient-test-example-patient-medicare-testident-dva-e.html">Patient with Medicare Number, Patient Test Identifier and DVA number</a></td>
+        <td>test-example-patient-medicare-testident-dva-e</td>
+        <td>?</td>
+        <td>?</td>
+        <td>-</td>
+      </tr>
     </tbody>
 </table>
