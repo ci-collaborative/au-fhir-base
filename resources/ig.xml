@@ -2993,6 +2993,96 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-c"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-d"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-e"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-f"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-g"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-h"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-i"/>
+      </reference>
+      <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-j"/>
+        </reference>
+        <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-k"/>
+        </reference>
+        <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-l"/>
+        </reference>
+        <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-m"/>
+        </reference>
+        <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-n"/>
+        </reference>
+        <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-o"/>
+        </reference>
+        <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-p"/>
+        </reference>
+        <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/test-example-patient-medicare-testident-dva-q"/>
+        </reference>
+        <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/test-example-patient-medicare-testident-dva-r"/>
       </reference>
       <name value="Patient with Medicare Number, locally defined identifier and DVA number"/>
