@@ -1,6 +1,6 @@
 **Patient with Mandatory IHI** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
 
-Prototype derived profile uses open slice to mandate one and only one IHI.
+Prototype derived profile uses open slice (discriminator=type) to mandate one and only one IHI.
 
 #### Test Examples
 

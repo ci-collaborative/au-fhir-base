@@ -1,6 +1,6 @@
 **Patient with IHI and Medicare Number Open Slice** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
 
-Prototype derived profile uses open slice to allow max one IHI, max one Medicare Number, and any other identifiers.
+Prototype derived profile uses open slice (discriminator=system) to allow max one IHI, max one Medicare Number, and any other identifiers.
 
 #### Test Examples
 

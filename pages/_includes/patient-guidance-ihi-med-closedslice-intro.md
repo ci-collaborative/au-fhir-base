@@ -1,6 +1,6 @@
 **Patient with IHI and Medicare Number Closed Slice** *[[Draft](http://hl7.org/fhir/r4/valueset-publication-status.html)]*
 
-Prototype derived profile uses closed slice to allow only max two identifiers; a single IHI and a single Medicare Number.
+Prototype derived profile uses closed slice (discriminator=system) to allow only max two identifiers; a single IHI and a single Medicare Number. 
 
 #### Test Examples
 
