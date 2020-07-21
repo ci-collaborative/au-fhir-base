@@ -73,8 +73,8 @@ Prototype derived profile uses closed slice to allow only max two identifiers; a
         <td><a href="Patient-test-example-patient-medicare-testident-e.html">Patient with Medicare Number and a valid Patient Test Identifier</a></td>
         <td>test-example-patient-medicare-testident-e</td>
         <td>Fail</td>
-        <td>Pass</td>
-        <td>????? TBD</td>
+        <td>Fail</td>
+        <td>-</td>
       </tr>
       <tr>
         <td><a href="Patient-test-example-patient-testident-e.html">Patient with valid Patient Test Identifier</a></td>
