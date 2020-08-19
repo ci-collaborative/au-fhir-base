@@ -39,6 +39,12 @@
       <short value="Australia Post Delivery Point Identifier (DPID)"/>
       <definition value="A Delivery Point Identifier (DPID) is a randomly generated, unique 8-digit number, allocated by Australia Post to an address. A DPID enables each delivery point in Australia to be uniquely identified."/>
       <max value="1" />
+      <constraint>
+        <key value="inv-dpid-0" />
+        <severity value="error" />
+        <human value="DPID shall be 8 digits" />
+        <expression value="valueString.matches('^([0-9]{8})$')" />
+      </constraint>
     </element>
     <element id="Extension.url">
       <path value="Extension.url"/>
@@ -52,6 +58,10 @@
       <type>
         <code value="string"/>
       </type>
+      <example>
+        <label value="DPID" />
+        <valueString value="34567890" />
+      </example>
     </element>
   </differential>
 </StructureDefinition>
