@@ -1353,7 +1353,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/address-dpid"/>
+        <reference value="StructureDefinition/address-deliverypointidentifier"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>

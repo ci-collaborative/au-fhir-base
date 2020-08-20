@@ -523,9 +523,9 @@
             "base": "StructureDefinition-date-of-arrival.html",
             "defns": "StructureDefinition-date-of-arrival-definitions.html"
             },
-        "StructureDefinition/address-dpid": {
-            "base": "StructureDefinition-address-dpid.html",
-            "defns": "StructureDefinition-address-dpid-definitions.html"
+        "StructureDefinition/address-deliverypointidentifier": {
+            "base": "StructureDefinition-address-deliverypointidentifier.html",
+            "defns": "StructureDefinition-address-deliverypointidentifier-definitions.html"
         },
         "CodeSystem/medication-type": {
             "base": "CodeSystem-medication-type.html",

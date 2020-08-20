@@ -9,7 +9,7 @@ Related to administration records such as patient, practitioner, practitioner ro
 * [IHI Status](StructureDefinition-ihi-status.html) - identifier status 
 * [IHI Record Status](StructureDefinition-ihi-record-status.html) - identifier record status 
 * [No Fixed Address](StructureDefinition-no-fixed-address.html) - address flag
-* [Delivery Point Identifier](StructureDefinition-address-dpip.html) - Australia Post Delivery Point Identifier (DPID)
+* [Delivery Point Identifier](StructureDefinition-address-deliverypointidentifier.html) - Australia Post Delivery Point Identifier (DPID)
 * [Encounter Description](StructureDefinition-encounter-description.html) - description of an encounter
 * [Associated Healthcare Service](StructureDefinition-associated-healthcareservice.html) - Healthcare service associated with a resource
 * [Date of Arrival in Australia](StructureDefinition-date-of-arrival.html) - the date a person first arrived in Australia, from another country, with the intention of living in Australia for one year or more

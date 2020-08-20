@@ -6,4 +6,4 @@ A Delivery Point Identifier (DPID)[<sup>[1]</sup>](https://auspost.com.au/busine
 
 **Examples**
 
-[Postal (with DPID) and work address in Darwin, NT](Patient-address-example0.html)
+[Postal address (with DPID) and work address in Darwin, NT](Patient-address-example0.html)

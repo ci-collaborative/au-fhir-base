@@ -25,7 +25,7 @@ See more info at : [ISO 21090 Data Type Extensions](http://hl7.org/fhir/R4/iso-2
 
 **Examples**
 
-[Postal (with DPID) and work address in Darwin, NT](Patient-address-example0.html)
+[Postal address (with DPID) and work address in Darwin, NT](Patient-address-example0.html)
 
 [Level 1, 300 George St, Brisbane, QLD 4000](Patient-address-example1.html)
 
