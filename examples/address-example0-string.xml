@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Patient xmlns="http://hl7.org/fhir">
-    <id value="address-example0"/>
+    <id value="address-example0-string"/>
     <text>
         <status value="extensions"/>
         <div xmlns="http://www.w3.org/1999/xhtml">

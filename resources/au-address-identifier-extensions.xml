@@ -73,6 +73,14 @@
         <rules value="open" />
       </slicing>
     </element>
+    <element id="Address.extension:identifier">
+      <path value="Address.extension" />
+      <sliceName value="identifier" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org.au/fhir/StructureDefinition/address-deliverypointidentifier" />
+      </type>
+    </element>
     <element id="Address.extension:noFixedAddress">
       <path value="Address.extension" />
       <sliceName value="noFixedAddress" />

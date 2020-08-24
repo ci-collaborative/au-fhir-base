@@ -534,6 +534,10 @@
         "StructureDefinition/address-deliverypointidentifier": {
             "base": "StructureDefinition-address-deliverypointidentifier.html",
             "defns": "StructureDefinition-address-deliverypointidentifier-definitions.html"
+            },
+        "StructureDefinition/address-identifier": {
+            "base": "StructureDefinition-address-identifier.html",
+            "defns": "StructureDefinition-address-identifier-definitions.html"
         },
         "CodeSystem/medication-type": {
             "base": "CodeSystem-medication-type.html",

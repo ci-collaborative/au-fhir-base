@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Patient xmlns="http://hl7.org/fhir">
-    <id value="address-example0"/>
+    <id value="address-example0-identifiers"/>
     <text>
         <status value="extensions"/>
         <div xmlns="http://www.w3.org/1999/xhtml">
@@ -28,6 +28,12 @@
                             <p>Darwin, NT, 0801</p>
                         </td>
                     </tr>
+                    <tr>
+                        <td>DPID: 34567890</td>
+                    </tr>
+                    <tr>
+                        <td>G-NAF ID: GANT_703837611</td>
+                    </tr>
                 </tbody>
             </table>
             <h2>OFFICE ADDRESS DETAILS</h2>
@@ -41,6 +47,7 @@
         </div>
     </text>
     <address>
+
         <use value="work"/>
         <type value="postal"/>
         <line value="Northern Territory Office"/>
