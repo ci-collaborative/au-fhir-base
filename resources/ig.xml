@@ -280,6 +280,20 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/au-address-string-extensions"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-address-identifier-extensions"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/au-ihinumber"/>
       </reference>
       <exampleBoolean value="false"/>

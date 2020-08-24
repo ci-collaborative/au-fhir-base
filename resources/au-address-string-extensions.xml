@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="au-address" />
-  <url value="http://hl7.org.au/fhir/StructureDefinition/au-address" />
+  <id value="au-address-string-extensions" />
+  <url value="http://hl7.org.au/fhir/StructureDefinition/au-address-string-extensions" />
   <version value="2.1.0"/>
   <name value="AUBaseAddress" />
-  <title value="AU Base Address" />
+  <title value="AU Base Address with String Extensions for Identifiers" />
   <status value="active" />
   <date value="2019-07-30" />
   <publisher value="Health Level Seven Australia (Patient Administration WG)" />
@@ -15,7 +15,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This profile is provided for use in an Australian context where some constraint on content is desirable to guarantee the quality of an Australian address whilst still supporting other uses such as unstructured addresses." />
+  <description value="This profile is a prototype design option of AU Base Address. It demonstrates the modelling and inclusion of address identifiers via a series of string extensions, one extension per identifier of interest, on the Address data type." />
   <jurisdiction>
     <coding>
       <code value="AU"/>
@@ -23,7 +23,7 @@
     </coding>
   </jurisdiction>
   <copyright value="HL7 Australia© 2018+; Licensed Under Creative Commons No Rights Reserved."/>
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
   <type value="Address" />
