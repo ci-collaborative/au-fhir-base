@@ -36,8 +36,8 @@
   <differential>
     <element id="Extension">
       <path value="Extension"/>
-      <short value="TBD Address identifier"/>
-      <definition value="TBD"/>
+      <short value="An address identifier"/>
+      <definition value="A unique identifier associated with a location address and may be used to look up an address, validate an address, or link to other data relating to an address."/>
       <max value="1" />
     </element>
     <element id="Extension.url">
@@ -47,7 +47,7 @@
     <element id="Extension.value[x]:valueIdentifier">
       <path value="Extension.valueIdentifier"/>
       <sliceName value="valueIdentifier"/>
-      <short value="TBD"/>
+      <short value="Identifier for the address"/>
       <min value="1"/>
       <type>
         <code value="Identifier"/>

@@ -78,7 +78,7 @@
       <sliceName value="identifier" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.org.au/fhir/StructureDefinition/address-deliverypointidentifier" />
+        <profile value="http://hl7.org.au/fhir/StructureDefinition/address-identifier" />
       </type>
     </element>
     <element id="Address.extension:noFixedAddress">

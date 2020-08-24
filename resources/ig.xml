@@ -1137,6 +1137,24 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/address-example0-string"/>
+      </reference>
+      <name value="Structured Australian Address"/>
+      <description value="Shows a typical Address with structured Australian address"/>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/address-example0-identifiers"/>
+      </reference>
+      <name value="Structured Australian Address"/>
+      <description value="Shows a typical Address with structured Australian address"/>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/address-example1"/>
       </reference>
       <name value="Unstructured Australian Address"/>
