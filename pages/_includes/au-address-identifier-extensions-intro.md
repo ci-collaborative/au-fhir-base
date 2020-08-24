@@ -5,6 +5,12 @@ _This profile is a prototype design option of AU Base Address. It demonstrates t
 This profile is provided for use in an Australian context where some constraint on content is desirable to guarantee the quality of an Australian address whilst still supporting
 other uses such as unstructured addresses. 
 
+#### Extensions
+Extensions used in this profile:
+* Address: [Address Identifier](http://hl7.org.au/fhir/StructureDefinition/address-identifier.html)
+* Address: [No Fixed Address](http://hl7.org.au/fhir/StructureDefinition/no-fixed-address.html)
+
+
 #### Usage Notes
 * Is for use when representing an Australian (location) address so country is fixed to AU.
 * Is not bound to any elements in this implementation guide directly.
@@ -27,7 +33,7 @@ See more info at : [ISO 21090 Data Type Extensions](http://hl7.org/fhir/R4/iso-2
 
 **Examples**
 
-[Postal and work address in Darwin, NT](Patient-address-example0.html)
+[Postal address (with DPID and G-NAF Identifier) and work address in Darwin, NT](Patient-address-example0-identifiers.html)
 
 [Level 1, 300 George St, Brisbane, QLD 4000](Patient-address-example1.html)
 
