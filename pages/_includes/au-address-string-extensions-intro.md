@@ -7,9 +7,9 @@ other uses such as unstructured addresses.
 
 #### Extensions
 Extensions used in this profile:
-* Address: [Delivery Point Identifier](http://hl7.org.au/fhir/StructureDefinition/address-deliverypointidentifier.html)
-* Address: [G-NAF Identifier](http://hl7.org.au/fhir/StructureDefinition/address-gnafidentifier.html)
-* Address: [No Fixed Address](http://hl7.org.au/fhir/StructureDefinition/no-fixed-address.html)
+* Address: [Delivery Point Identifier](StructureDefinition-address-deliverypointidentifier.html)
+* Address: [G-NAF Identifier](StructureDefinition-address-gnafidentifier.html)
+* Address: [No Fixed Address](StructureDefinition-no-fixed-address.html)
 
 
 #### Usage Notes

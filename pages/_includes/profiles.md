@@ -1,10 +1,10 @@
 # {{ page.title }}
 
+These Profiles have been defined for this implementation guide.
+
 ## Address Identifier Prototype Profiles 
 * [AU Base Address with String Extensions for Identifiers](StructureDefinition-au-address-string-extensions.html) - prototype design option of AU Base Address that demonstrates the modelling and inclusion of address identifiers via a series of string extensions, one extension per identifier of interest, on the Address data type
 * [AU Base Address with Identifier Extension](StructureDefinition-au-address-identifier-extensions.html) - prototype design option of AU Base Address that demonstrates the modelling and inclusion of address identifiers via a single identifier extension on the Address data type
-
-These Profiles have been defined for this implementation guide.
 
 ## Administration Profiles
 * [AU Base Patient](StructureDefinition-au-patient.html) - patient demographic with local identifiers and attributes 

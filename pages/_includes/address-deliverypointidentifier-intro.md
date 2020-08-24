@@ -6,4 +6,4 @@ A DPID[<sup>[1]</sup>](https://auspost.com.au/business/marketing-and-communicati
 
 **Examples**
 
-[Postal address (with DPID) and work address in Darwin, NT](Patient-address-example0.html)
+[Postal address (with DPID and G-NAF Identifier) and work address in Darwin, NT](Patient-address-example0-string.html)
