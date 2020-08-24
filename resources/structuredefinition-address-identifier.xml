@@ -15,7 +15,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This extension applies to the Address datatype and is used to represent an identifier for an address.TBD."/>
+  <description value="This extension applies to the Address datatype and is used to represent an identifier for an address."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -36,7 +36,7 @@
   <differential>
     <element id="Extension">
       <path value="Extension"/>
-      <short value="An address identifier"/>
+      <short value="Identifier for the address"/>
       <definition value="A unique identifier associated with a location address and may be used to look up an address, validate an address, or link to other data relating to an address."/>
       <max value="1" />
     </element>
@@ -47,7 +47,6 @@
     <element id="Extension.value[x]:valueIdentifier">
       <path value="Extension.valueIdentifier"/>
       <sliceName value="valueIdentifier"/>
-      <short value="Identifier for the address"/>
       <min value="1"/>
       <type>
         <code value="Identifier"/>
