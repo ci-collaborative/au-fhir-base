@@ -167,6 +167,14 @@
             "base": "StructureDefinition-au-address.html",
             "defns": "StructureDefinition-au-address-definitions.html"
              },
+        "StructureDefinition/au-address-identifier-extensions": {
+            "base": "StructureDefinition-au-address-identifier-extensions.html",
+            "defns": "StructureDefinition-au-address-identifier-extensions-definitions.html"
+             },
+        "StructureDefinition/au-address-string-extensions": {
+            "base": "StructureDefinition-au-address-string-extensions.html",
+            "defns": "StructureDefinition-au-address-string-extensions-definitions.html"
+        },
         "StructureDefinition/au-ahpraregistrationnumber": {
             "base": "StructureDefinition-au-ahpraregistrationnumber.html",
             "defns": "StructureDefinition-au-ahpraregistrationnumber-definitions.html"
@@ -523,6 +531,14 @@
             "base": "StructureDefinition-date-of-arrival.html",
             "defns": "StructureDefinition-date-of-arrival-definitions.html"
             },
+        "StructureDefinition/address-deliverypointidentifier": {
+            "base": "StructureDefinition-address-deliverypointidentifier.html",
+            "defns": "StructureDefinition-address-deliverypointidentifier-definitions.html"
+            },
+        "StructureDefinition/address-identifier": {
+            "base": "StructureDefinition-address-identifier.html",
+            "defns": "StructureDefinition-address-identifier-definitions.html"
+        },
         "CodeSystem/medication-type": {
             "base": "CodeSystem-medication-type.html",
             "defns": "CodeSystem-medication-type-definitions.html"
