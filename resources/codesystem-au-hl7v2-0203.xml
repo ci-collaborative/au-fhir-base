@@ -33,11 +33,6 @@
 	<versionNeeded value="true"/>
 	<content value="complete"/>
 	<concept>
-		<code value="AI"/>
-		<display value="Address Identifier"/>
-		<definition value="A unique identifier associated with a location address."/>
-	</concept>
-	<concept>
 		<code value="AHPRA"/>
 		<display value="Australian Health Practitioner Regulation Agency Registration Number"/>
 		<definition value="Australian Health Practitioner Regulation Agency allocated registration number"/>
