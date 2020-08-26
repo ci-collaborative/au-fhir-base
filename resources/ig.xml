@@ -1406,6 +1406,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/au-gnafidentifier"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/address-identifier"/>
       </reference>
       <exampleBoolean value="false"/>

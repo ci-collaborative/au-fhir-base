@@ -539,10 +539,13 @@
             "base": "StructureDefinition-au-deliverypointidentifier.html",
             "defns": "StructureDefinition-au-deliverypointidentifier-definitions.html"
             },
-
         "StructureDefinition/address-gnafidentifier": {
             "base": "StructureDefinition-address-gnafidentifier.html",
             "defns": "StructureDefinition-address-gnafidentifier-definitions.html"
+            },
+        "StructureDefinition/au-gnafidentifier": {
+            "base": "StructureDefinition-au-gnafidentifier.html",
+            "defns": "StructureDefinition-au-gnafidentifier-definitions.html"
             },
         "StructureDefinition/address-identifier": {
             "base": "StructureDefinition-address-identifier.html",

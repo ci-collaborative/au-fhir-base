@@ -68,6 +68,11 @@
 		<definition value="Identifier allocated by an ETP supplier, sometimes related to a barcorde."/>
 	</concept>
 	<concept>
+		<code value="GNAF"/>
+		<display value="Geocoded National Address File Identifier"/>
+		<definition value="A Geocoded National Address File Identifier identifies an address in the Geocoded National Address File (G-NAF)."/>
+	</concept>
+	<concept>
 		<code value="LDI"/>
 		<display value="Local Dispense Identifier"/>
 		<definition value="Local dispensing identifier"/>
