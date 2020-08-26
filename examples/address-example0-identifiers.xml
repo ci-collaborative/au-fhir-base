@@ -32,7 +32,7 @@
                         <td>DPID: 34567890</td>
                     </tr>
                     <tr>
-                        <td>G-NAF ID: GANT_703837611</td>
+                        <td>G-NAF: GAVIC411711441</td>
                     </tr>
                 </tbody>
             </table>
@@ -74,7 +74,7 @@
                 </type>
                 <system value="https://tbd"/>
                 <!-- sample value G-NAF Identifier - does not correspond to the address information in this example -->
-                <value value="GANT_703837611"/>
+                <value value="GAVIC411711441"/>
             </valueIdentifier>
         </extension>
         

@@ -82,6 +82,15 @@
         <profile value="http://hl7.org.au/fhir/StructureDefinition/address-deliverypointidentifier" />
       </type>
     </element>
+    <element id="Address.extension:gnafIdentifier">
+      <path value="Address.extension" />
+      <sliceName value="gnafIdentifier" />
+      <max value="1"/>
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org.au/fhir/StructureDefinition/address-gnafidentifier" />
+      </type>
+    </element>
     <element id="Address.extension:noFixedAddress">
       <path value="Address.extension" />
       <sliceName value="noFixedAddress" />

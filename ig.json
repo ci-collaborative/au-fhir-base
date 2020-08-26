@@ -535,6 +535,10 @@
             "base": "StructureDefinition-address-deliverypointidentifier.html",
             "defns": "StructureDefinition-address-deliverypointidentifier-definitions.html"
             },
+        "StructureDefinition/address-gnafidentifier": {
+            "base": "StructureDefinition-address-gnafidentifier.html",
+            "defns": "StructureDefinition-address-gnafidentifier-definitions.html"
+            },
         "StructureDefinition/address-identifier": {
             "base": "StructureDefinition-address-identifier.html",
             "defns": "StructureDefinition-address-identifier-definitions.html"
