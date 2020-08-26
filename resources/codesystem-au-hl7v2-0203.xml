@@ -38,6 +38,11 @@
 		<definition value="Australian Health Practitioner Regulation Agency allocated registration number"/>
 	</concept>
 	<concept>
+		<code value="DPID"/>
+		<display value="Delivery Point Identifier"/>
+		<definition value="An Australia Post Delivery Point Identifier (DPID) allocated to a location address."/>
+	</concept>
+	<concept>
 		<code value="DVG"/>
 		<display value="DVA Gold Card Number"/>
 		<definition value="Department of Veterans' Affairs Number (Gold Card)"/>
