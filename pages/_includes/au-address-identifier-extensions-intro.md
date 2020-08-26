@@ -1,6 +1,6 @@
 **AU Base Address with Identifier Extension** *[[FMM Level 2](guidance.html)]*
 
-_This profile is a prototype design option of AU Base Address. It demonstrates the modelling and inclusion of address identifiers via a single identifier extension on the Address data type._
+_This profile is a prototype design option of AU Base Address [#478](https://github.com/hl7au/au-fhir-base/issues/478). It demonstrates the modelling and inclusion of address identifiers via a single identifier extension on the Address data type._
 
 This profile is provided for use in an Australian context where some constraint on content is desirable to guarantee the quality of an Australian address whilst still supporting
 other uses such as unstructured addresses. 

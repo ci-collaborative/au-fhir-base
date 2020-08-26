@@ -84,7 +84,7 @@
       <min value="1" />
       <example>
         <label value="G-NAF Identifier" />
-        <valueString value="GANT_703837611" />
+        <valueString value="GAVIC411711441" />
       </example>
       <maxLength value="15" />
     </element>

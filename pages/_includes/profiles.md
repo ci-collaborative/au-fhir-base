@@ -2,9 +2,14 @@
 
 These Profiles have been defined for this implementation guide.
 
-## Address Identifier Prototype Profiles 
-* [AU Base Address with String Extensions for Identifiers](StructureDefinition-au-address-string-extensions.html) - prototype design option of AU Base Address that demonstrates the modelling and inclusion of address identifiers via a series of string extensions, one extension per identifier of interest, on the Address data type
-* [AU Base Address with Identifier Extension](StructureDefinition-au-address-identifier-extensions.html) - prototype design option of AU Base Address that demonstrates the modelling and inclusion of address identifiers via a single identifier extension on the Address data type
+## Address Identifier Prototype Profiles for #478
+There are two options proposed to [Handling address identifiers in AU Base - extension for each or one identifier extension #478](https://github.com/hl7au/au-fhir-base/issues/478).
+
+Option 1. [AU Base Address with String Extensions for Identifiers](StructureDefinition-au-address-string-extensions.html) 
+Prototype design option of AU Base Address that demonstrates the modelling and inclusion of address identifiers via a series of string extensions, one extension per identifier of interest, on the Address data type.
+
+Option 2. [AU Base Address with Identifier Extension](StructureDefinition-au-address-identifier-extensions.html) 
+Prototype design option of AU Base Address that demonstrates the modelling and inclusion of address identifiers via a single identifier extension on the Address data type.
 
 ## Administration Profiles
 * [AU Base Patient](StructureDefinition-au-patient.html) - patient demographic with local identifiers and attributes 
