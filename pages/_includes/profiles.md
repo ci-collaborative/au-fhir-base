@@ -55,7 +55,7 @@ These Profiles have been defined for this implementation guide.
 * [AU Delivery Point Identifier](StructureDefinition-au-deliverypointidentifier.html) - identifier profile for an Australia Post Delivery Point Identifier (DPID)
 * [AU DVA Number](StructureDefinition-au-dvanumber.html) - identifier profile for a Department of Veterans' Affairs (DVA) number
 * [AU Employee Number](StructureDefinition-au-employeenumber.html) - identifier profile for an employee number
-* [AU G-NAF Identifier](StructureDefinition-au-gnafidentifier.html) - identifier profile for a Geocoded National Address File (G-NAF)
+* [AU G-NAF Identifier](StructureDefinition-au-gnafidentifier.html) - identifier profile for a Geocoded National Address File (G-NAF) Identifier
 * [AU Health Care Card Number](StructureDefinition-au-healthcarecardnumber.html) - identifier profile for a Health Care Card number
 * [AU HPI-I Number](StructureDefinition-au-hpiinumber.html) - identifier profile for a Healthcare Provider Identifier - Individual (HPI-I)
 * [AU HPI-O Number](StructureDefinition-au-hpionumber.html) - identifier profile for a Healthcare Provider Identifier – Organisation (HPI-O)

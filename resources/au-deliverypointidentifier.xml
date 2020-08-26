@@ -48,7 +48,7 @@
         <element id="Identifier">
             <path value="Identifier"/>
             <short value="Australia Post Delivery Point Identifier (DPID)"/>
-            <definition value="A Delivery Point Identifier (DPID) is a randomly generated, unique 8-digit number, allocated by Australia Post to an address. A DPID enables each delivery point in Australia to be uniquely identified." />
+            <definition value="Australia Post Delivery Point Identifier (DPID) allocated to a location address. A DPID enables each delivery point in Australia to be uniquely identified." />
             <constraint>
                 <key value="inv-dpid-0"/>
                 <severity value="error"/>

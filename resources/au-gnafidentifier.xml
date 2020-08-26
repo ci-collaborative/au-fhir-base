@@ -48,7 +48,7 @@
     <element id="Identifier">
       <path value="Identifier" />
       <short value="Geocoded National Address File (G-NAF) Identifier"/>
-      <definition value="A G-NAF Identifier identifies an address in the Geocoded National Address File (G-NAF)."/>
+      <definition value="Geocoded National Address File (G-NAF) Identifier assigned to a location address in the G-NAF."/>
     </element>
     <element id="Identifier.type">
       <path value="Identifier.type" />

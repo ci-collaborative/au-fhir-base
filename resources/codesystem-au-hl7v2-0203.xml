@@ -70,7 +70,7 @@
 	<concept>
 		<code value="GNAF"/>
 		<display value="Geocoded National Address File Identifier"/>
-		<definition value="A Geocoded National Address File Identifier identifies an address in the Geocoded National Address File (G-NAF)."/>
+		<definition value="A Geocoded National Address File (G-NAF) Identifier assigned to a location address in the G-NAF."/>
 	</concept>
 	<concept>
 		<code value="LDI"/>
