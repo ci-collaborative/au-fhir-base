@@ -2,7 +2,7 @@
 
 These extensions have been defined for this implementation guide.
 
-## Address Identifier extension options for #478
+## Address Identifier Extension options for #478
 There are two options proposed to [Handling address identifiers in AU Base - extension for each or one identifier extension #478](https://github.com/hl7au/au-fhir-base/issues/478).
  
 #### Option 1. String extensions for each address identifier 
