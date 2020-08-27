@@ -167,13 +167,13 @@
             "base": "StructureDefinition-au-address.html",
             "defns": "StructureDefinition-au-address-definitions.html"
              },
-        "StructureDefinition/au-address-identifier-extensions": {
-            "base": "StructureDefinition-au-address-identifier-extensions.html",
-            "defns": "StructureDefinition-au-address-identifier-extensions-definitions.html"
+        "StructureDefinition/au-address-with-identifier-extensions": {
+            "base": "StructureDefinition-au-address-with-identifier-extensions.html",
+            "defns": "StructureDefinition-au-address-with-identifier-extensions-definitions.html"
              },
-        "StructureDefinition/au-address-string-extensions": {
-            "base": "StructureDefinition-au-address-string-extensions.html",
-            "defns": "StructureDefinition-au-address-string-extensions-definitions.html"
+        "StructureDefinition/au-address-with-string-extensions": {
+            "base": "StructureDefinition-au-address-with-string-extensions.html",
+            "defns": "StructureDefinition-au-address-with-string-extensions-definitions.html"
         },
         "StructureDefinition/au-ahpraregistrationnumber": {
             "base": "StructureDefinition-au-ahpraregistrationnumber.html",

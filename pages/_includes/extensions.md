@@ -2,6 +2,17 @@
 
 These extensions have been defined for this implementation guide.
 
+## Address Identifier extension options for #478
+There are two options proposed to [Handling address identifiers in AU Base - extension for each or one identifier extension #478](https://github.com/hl7au/au-fhir-base/issues/478).
+ 
+#### Option 1. String extensions for each address identifier 
+* [Delivery Point Identifier](StructureDefinition-address-deliverypointidentifier.html) - Australia Post Delivery Point Identifier (DPID)
+* [G-NAF Identifier](StructureDefinition-address-deliverypointidentifier.html) - Geocoded National Address File (G-NAF) Identifier
+
+#### Option 2. Single address identifier extension 
+* [Address Identifier](StructureDefinition-address-identifier.html) - address identifier
+
+
 ## Administration
 Related to administration records such as patient, practitioner, practitioner role, health care service etc.
 * [Address Identifier](StructureDefinition-address-identifier.html) - address identifier

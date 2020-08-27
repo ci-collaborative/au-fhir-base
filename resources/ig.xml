@@ -280,14 +280,14 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-address-string-extensions"/>
+        <reference value="StructureDefinition/au-address-with-string-extensions"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-address-identifier-extensions"/>
+        <reference value="StructureDefinition/au-address-with-identifier-extensions"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
