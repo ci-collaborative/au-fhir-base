@@ -46,7 +46,7 @@
 	<concept>
 		<code value="DPID"/>
 		<display value="Delivery Point Identifier"/>
-		<definition value="An Australia Post Delivery Point Identifier (DPID) allocated to a location address."/>
+		<definition value="An Australia Post Delivery Point Identifier (DPID) allocated to a location address for postal delivery."/>
 	</concept>
 	<concept>
 		<code value="DVG"/>
@@ -76,7 +76,7 @@
 	<concept>
 		<code value="GNAF"/>
 		<display value="Geocoded National Address File Identifier"/>
-		<definition value="A Geocoded National Address File (G-NAF) Identifier assigned to a location address in the G-NAF."/>
+		<definition value="A Geocoded National Address File (G-NAF) Identifier assigned to a location address, i.e. street address, in the G-NAF."/>
 	</concept>
 	<concept>
 		<code value="LDI"/>
