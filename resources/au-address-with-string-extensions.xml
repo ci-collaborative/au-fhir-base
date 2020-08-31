@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="au-address-with-string-extensions" />
-  <url value="http://hl7.org.au/fhir/StructureDefinition/au-address-string-with-extensions" />
+  <url value="http://hl7.org.au/fhir/StructureDefinition/au-address-with-string-extensions" />
   <version value="2.1.0"/>
   <name value="AUBaseAddress" />
   <title value="AU Base Address with String Extensions for Identifiers" />
