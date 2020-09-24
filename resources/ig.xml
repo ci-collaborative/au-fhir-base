@@ -154,7 +154,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/grounds-for-concurrent-supply"/>
+        <reference value="StructureDefinition/subsidised-concurrent-supply"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -287,7 +287,28 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/au-nationalprovideridentifieratorganisation"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/au-medicarecardnumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-medicareprovidernumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-pbsprescribernumber"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -329,14 +350,28 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/au-abnnumber"/>
+        <reference value="StructureDefinition/au-australianbusinessnumber"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
-    </resource>    
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-australianregistredbodynumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/au-paioidentifier"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-careagencyemployeeidentifier"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -357,12 +392,61 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/au-locationspecificpracticenumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/au-employeenumber"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
-	  <resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-cspregistrationnumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-healthcarecardnumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-australiancompanynumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-cwlthseniorshealthcardnumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-pensionerconcessioncardnumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-insurernumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/au-medlist"/>
       </reference>
@@ -455,6 +539,34 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/au-smokingstatus"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+        <resource>
+      <reference>
+        <reference value="StructureDefinition/au-lastmenstrualperiod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>   
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-gravidity"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/au-parity"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/au-diagnosticreport"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -463,6 +575,13 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/au-specimen"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/contact-purpose"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -491,6 +610,20 @@
     <resource>
       <reference>
         <reference value="ValueSet/snomed-practitioner-specialties"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/contact-purpose"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="ValueSet/au-v3-ActEncounterCode"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -567,6 +700,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/smoking-status"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="CodeSystem/medication-type"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -575,6 +715,20 @@
     <resource>
       <reference>
         <reference value="CodeSystem/service-provision-conditions"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/contact-purpose"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/au-v3-ActCode"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -704,16 +858,7 @@
         <reference value="HealthcareService/example3"/>
       </reference>
       <name value="Healthcare Service of a General Practitioner"/>
-      <description value="Shows a typical Healthcare Service the General Practitioner belongs to"/>
-      <exampleBoolean value="true"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="HealthcareService/example4"/>
-      </reference>
-      <name value="Healthcare Service of a General Practitioner"/>
-      <description value="Shows a typical Healthcare Service describing communication languages"/>
+      <description value="Shows a typical Healthcare Service the General Practitioner belongs while also describing communication languages"/>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
@@ -1268,21 +1413,6 @@
       </reference>
       <name value="Medicine List with changes"/>
       <description value="Medicine List with changes"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/dose-administration-aid-medicines-present"/>
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/presence-of-dose-administration-aid-medicines-1"/>
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/presence-of-dose-administration-aid-medicines-1"/>
-      </reference>
     </resource>
     <resource>
       <reference>
