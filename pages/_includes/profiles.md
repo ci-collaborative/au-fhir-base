@@ -59,6 +59,7 @@ Prototype design option of AU Base Address that demonstrates the modelling and i
 ## Profiles on Data Types 
 
 ### Profiles on Identifier Data Type
+* [AU Accession Number](StructureDefinition-au-accessionnumber.html) - identifier profile for an accession number
 * [AU Australian Business Number](StructureDefinition-au-australianbusinessnumber.html) - identifier profile for an Australian Business Number (ABN)
 * [AU Australian Company Number](StructureDefinition-au-australiancompanynumber.html) - identifier profile for an Australian Company Number (ACN)
 * [AU Australian Registered Body Number](StructureDefinition-au-australianregistredbodynumber.html) - identifier profile for an Australian Registered Body Number (ARBN)
@@ -69,14 +70,16 @@ Prototype design option of AU Base Address that demonstrates the modelling and i
 * [AU Delivery Point Identifier](StructureDefinition-au-deliverypointidentifier.html) - identifier profile for an Australia Post Delivery Point Identifier (DPID)
 * [AU DVA Number](StructureDefinition-au-dvanumber.html) - identifier profile for a Department of Veterans' Affairs (DVA) number
 * [AU Employee Number](StructureDefinition-au-employeenumber.html) - identifier profile for an employee number
-* [AU ETP Vendor Identifier](StructureDefinition-au-etpvendoridentifier.html) - identifier profile for an Electronic Prescription Transfer (ETP) vendor identifier
+* [AU ETP Prescription Identifier](StructureDefinition-au-etpprescriptionidentifier.html) - identifier profile for an Electronic Prescription Transfer (ETP) prescription identifier
 * [AU G-NAF Identifier](StructureDefinition-au-gnafidentifier.html) - identifier profile for a Geocoded National Address File (G-NAF) Identifier
 * [AU Health Care Card Number](StructureDefinition-au-healthcarecardnumber.html) - identifier profile for a Health Care Card number
 * [AU HPI-I](StructureDefinition-au-hpii.html) - identifier profile for a Healthcare Provider Identifier - Individual (HPI-I)
 * [AU HPI-O](StructureDefinition-au-hpio.html) - identifier profile for a Healthcare Provider Identifier – Organisation (HPI-O)
 * [AU IHI](StructureDefinition-au-ihi.html) - identifier profile for an Individual Healthcare Identifier (IHI)
 * [AU Local Dispense Identifier](StructureDefinition-au-localdispenseidentifier.html) - identifier profile for a local dispense identifier
+* [AU Local Order Identifier](StructureDefinition-au-localorderidentifier.html) - identifier profile for a local order identifier
 * [AU Local Prescription Identifier](StructureDefinition-au-localprescriptionidentifier.html) - identifier profile for a local prescription identifier
+* [AU Local Report Identifier](StructureDefinition-au-localreportidentifier.html) - identifier profile for a local report identifier
 * [AU Location Specific Practice Number](StructureDefinition-au-locationspecificpracticenumber.html) - identifier profile for a Location Specific Practice Number (LSPN)
 * [AU Medical Record Number](StructureDefinition-au-medicalrecordnumber.html) - identifier profile for a Medical Record Number (MRN)
 * [AU Medicare Card Number](StructureDefinition-au-medicarecardnumber.html) - identifier profile for a Medicare card number
@@ -85,8 +88,9 @@ Prototype design option of AU Base Address that demonstrates the modelling and i
 * [AU NATA Site Number](StructureDefinition-au-natasitenumber.html) - identifier profile for a National Association of Testing Authorities (NATA) site number
 * [AU National Provider Identifier At Organisation](StructureDefinition-au-nationalprovideridentifieratorganisation.html) - identifier profile for a National Provider Identifier at Organisation (NPIO)
 * [AU PAI-O Identifier](StructureDefinition-au-paioidentifier.html) - identifier profile for a My Health Record Assigned Identity - Organisation (PAI-O)
-* [AU Pensioner Concession Card Number](StructureDefinition-au-pensionerconcessioncardnumber.html) - identifier profile for an Pensioner Concession Card number
 * [AU PBS Prescriber Number](StructureDefinition-au-pbsprescribernumber.html) - identifier profile for a Pharmaceutical Benefits Scheme (PBS) prescriber number
+* [AU Pensioner Concession Card Number](StructureDefinition-au-pensionerconcessioncardnumber.html) - identifier profile for an Pensioner Concession Card number
+* [AU Pharmacy Approval Number](StructureDefinition-au-pharmacyapprovalnumber.html) - identifier profile for a pharmacy approval number
 * [AU Private Healthcare Insurer Number](StructureDefinition-au-insurernumber.html) - identifier profile for a private health insurance member number
 
 ### Profiles on Other Data Types

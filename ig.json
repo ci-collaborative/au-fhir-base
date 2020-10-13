@@ -244,9 +244,9 @@
             "base": "StructureDefinition-au-careagencyemployeeidentifier.html",
             "defns": "StructureDefinition-au-careagencyemployeeidentifier-definitions.html"
         },
-        "StructureDefinition/au-etpvendoridentifier": {
-            "base": "StructureDefinition-au-etpvendoridentifier.html",
-            "defns": "StructureDefinition-au-etpvendoridentifier-definitions.html"
+        "StructureDefinition/au-etpprescriptionidentifier": {
+            "base": "StructureDefinition-au-etpprescriptionidentifier.html",
+            "defns": "StructureDefinition-au-etpprescriptionidentifier-definitions.html"
         },
         "StructureDefinition/au-nataaccreditationnumber": {
             "base": "StructureDefinition-au-nataaccreditationnumber.html",
@@ -407,6 +407,10 @@
         "StructureDefinition/au-estimateddateofdelivery": {
             "base": "StructureDefinition-au-estimateddateofdelivery.html",
             "defns": "StructureDefinition-au-estimateddateofdelivery-definitions.html"
+        },
+        "StructureDefinition/au-gestationalage": {
+            "base": "StructureDefinition-au-gestationalage.html",
+            "defns": "StructureDefinition-au-gestationalage-definitions.html"
         },
         "StructureDefinition/au-norelevantfinding": {
             "base": "StructureDefinition-au-norelevantfinding.html",
@@ -592,6 +596,22 @@
             "base": "StructureDefinition-address-identifier.html",
             "defns": "StructureDefinition-address-identifier-definitions.html"
         },
+        "StructureDefinition/au-pharmacyapprovalnumber": {
+            "base": "StructureDefinition-au-pharmacyapprovalnumber.html",
+            "defns": "StructureDefinition-au-pharmacyapprovalnumber-definitions.html"
+        },
+        "StructureDefinition/au-localreportidentifier": {
+            "base": "StructureDefinition-au-localreportidentifier.html",
+            "defns": "StructureDefinition-au-localreportidentifier-definitions.html"
+        },
+        "StructureDefinition/au-localorderidentifier": {
+            "base": "StructureDefinition-au-localorderidentifier.html",
+            "defns": "StructureDefinition-au-localorderidentifier-definitions.html"
+        },
+        "StructureDefinition/au-accessionnumber": {
+            "base": "StructureDefinition-au-accessionnumber.html",
+            "defns": "StructureDefinition-au-accessionnumber-definitions.html"
+        },
         "CodeSystem/medication-type": {
             "base": "CodeSystem-medication-type.html",
             "defns": "CodeSystem-medication-type-definitions.html"
@@ -639,6 +659,18 @@
         "ValueSet/au-hl7v2-0203": {
             "base": "ValueSet-au-hl7v2-0203.html",
             "defns": "ValueSet-au-hl7v2-0203-definitions.html"
+        },
+        "ValueSet/dva-entitlement": {
+            "base": "ValueSet-dva-entitlement.html",
+            "defns": "ValueSet-dva-entitlement-definitions.html"
+        },
+        "ValueSet/accession-number-type": {
+            "base": "ValueSet-accession-number-type.html",
+            "defns": "ValueSet-accession-number-type-definitions.html"
+        },
+        "ValueSet/order-identifier-type": {
+            "base": "ValueSet-order-identifier-type.html",
+            "defns": "ValueSet-order-identifier-type-definitions.html"
         },
         "CodeSystem/au-hl7v2-0443": {
             "base": "CodeSystem-au-hl7v2-0443.html",

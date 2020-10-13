@@ -52,23 +52,28 @@
 		<definition value="An Australia Post Delivery Point Identifier (DPID) allocated to a location address for postal delivery."/>
 	</concept>
 	<concept>
+		<code value="DVAU"/>
+		<display value="DVA Number"/>
+		<definition value="An individual's state-based Department of Veterans’ Affairs (DVA) File number. Entitlement is not specified with the use of this code."/>
+	</concept>
+	<concept>
 		<code value="DVG"/>
-		<display value="DVA Gold Card Number"/>
+		<display value="DVA Number (Gold Card)"/>
 		<definition value="An individual's state-based Department of Veterans’ Affairs (DVA) File number as displayed on a Veteran Gold Card (the new name for a DVA Gold card). A Veteran Gold Card issued by Department of Veterans’ Affairs (DVA) to an eligible individual provides access to benefits associated with that card."/>
 	</concept>
 	<concept>
 		<code value="DVL"/>
-		<display value="DVA Lilac Card Number"/>
+		<display value="DVA Number (Lilac Card)"/>
 		<definition value="An individual's state-based Department of Veterans’ Affairs (DVA) File number as displayed on a DVA Lilac card). DVA Lilac Cards are no longer in use and were issued by Department of Veterans’ Affairs (DVA) to eligible individuals 1987-1996."/>
 	</concept>
 	<concept>
 		<code value="DVO"/>
-		<display value="DVA Orange Card Number"/>
+		<display value="DVA Number (Orange Card)"/>
 		<definition value="An individual's state-based Department of Veterans’ Affairs (DVA) File number as displayed on a Veteran Orange Card (the new name for a DVA Orange card). A Veteran Orange Card issued by Department of Veterans’ Affairs (DVA) to an eligible individual provides access to benefits associated with that card."/>
 	</concept>
 	<concept>
 		<code value="DVW"/>
-		<display value="DVA White Card Number"/>
+		<display value="DVA Number (White Card)"/>
 		<definition value="An individual's state-based Department of Veterans’ Affairs (DVA) File number as displayed on a Veteran White Card (the new name for a DVA White card). A Veteran White Card issued by Department of Veterans’ Affairs (DVA) to an eligible individual provides access to benefits associated with that card."/>
 	</concept>
 	<concept>
@@ -91,6 +96,11 @@
 		<display value="Local Prescription Number"/>
 		<definition value="An identifier unique to a prescription within the local system set of prescriptions."/>
 	</concept>	
+	<concept>
+		<code value="LRI"/>
+		<display value="Local Report Identifier"/>
+		<definition value="An identifier unique to a report within the local system set of reports."/>
+	</concept>
 	<concept>
 		<code value="LSPN"/>
 		<display value="Location Specific Practice Number"/>
@@ -145,5 +155,10 @@
 		<code value="VDI"/>
 		<display value="Vendor Directory Identifier"/>
 		<definition value="A unique vendor identifier allocated to a provider directory entry (PractitionerRole or HealthcareService), typically used for routing secure messages."/>
+	</concept>
+	<concept>
+		<code value="PAN"/>
+		<display value="Pharmacy Approval Number"/>
+		<definition value="An identifier unique to a pharmacy that is approved to supply pharmaceutical benefits at particular premises under the the National Health Act 1953."/>
 	</concept>
 </CodeSystem>
